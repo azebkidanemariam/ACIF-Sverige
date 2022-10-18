@@ -1,0 +1,11 @@
+.img-class {
+    height: 500px;
+    width: 100%;
+    object-fit:fill;
+}
+.img-class2{
+    height: 400px;
+    width: 100%;
+    object-fit:fill;
+    margin-top: 10px;
+}
