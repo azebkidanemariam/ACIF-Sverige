@@ -6,7 +6,7 @@ import Navigate from "../navigation/navigation";
 
 function HomePage() {
   return (
-    <div className="container-fluid">
+    <div>
       <Navigate />
       <HomeComponent />
       <FooterComponent />

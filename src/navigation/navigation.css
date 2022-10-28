@@ -1,34 +1,42 @@
-
-.icon-s{
-    size: 300px;
-    color: blueviolet;
-    
+.icon-s {
+  size: 300px;
+  color: blueviolet;
 }
-.box-shadow{
-    background-color: aquamarine;
-    color: black;
-    box-shadow: 2px 2px 4px rgb(183,201,255);
-   }
-   .shadow-color {
-    color:rgb(183,201,255);
-   }
-   .nav-style{ color: #012B4D;
-font-size: 1.6rem;
-font-weight: 900;
+.box-shadow {
+  background-color: aquamarine;
+  color: black;
+  box-shadow: 2px 2px 4px rgb(183, 201, 255);
 }
-   
-   a{ color: #012B4D;}
-   .navbar-text {
-    padding-top: 1rem;
-    padding-bottom:1rem;
-    }
-  
-    a,
-    a:hover,
-    a:focus  {
-      color: pink;
-    }
-  
+.shadow-color {
+  color: rgb(183, 201, 255);
+}
+.nav-style {
+  color: #b4a36c;
+  font-size: 1.6rem;
+  font-weight: 900;
+  letter-spacing: 0.07rem;
+}
+.nav-container {
+  width: 100%;
+  height: 10vh;
+  background-color: #534944;
+  display: flex;
+  /*  justify-content: center; */
+  align-items: center;
+  margin-bottom: 5px;
+}
 
-  
-  
+a {
+  color: #b4a36c;
+  /* color: #012b4d; */
+}
+.navbar-text {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+a,
+a:hover,
+a:focus {
+  color: pink;
+}

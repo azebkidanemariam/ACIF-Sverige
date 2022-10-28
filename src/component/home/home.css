@@ -67,9 +67,14 @@ video {
   /*  background-: linear-gradient(rgb(28,60,115),rgb(41, 77, 140), rgb(255,255,255))!important; */
 }
 h1 {
-  color: #6b0079;
+  color: #d0ba83;
 }
 h3,
 h5 {
   color: #012b4d;
+  letter-spacing: 0.07rem;
+}
+p {
+  letter-spacing: 0.01rem;
+  color: #7f7f7f;
 }
