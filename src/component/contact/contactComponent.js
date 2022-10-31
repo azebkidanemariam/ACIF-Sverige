@@ -1,7 +1,6 @@
 import React from "react";
 import imageBg from "../../asset/imageBg.jpg";
 import wineBg from "../../asset/wine.jpg";
-import plantBg from "../../asset/plant.jpg";
 import oceanBg from "../../asset/ocean.jpg";
 import stoneBg from "../../asset/stone.jpg";
 import loveBg from "../../asset/love.jpg";
@@ -50,7 +49,6 @@ function ContactComponent() {
       </div>
 
       <div className="d-flex row">
-      
         <div className="col">
           <h1>the truth will set you free</h1>
           <p>
@@ -69,7 +67,6 @@ function ContactComponent() {
             whole world. He made Adam and Eve and they lived in the beautiful
             Garden of Eden. They only had one rule they had to follow. Genesis
             2:16-17 says, “But the Lord God warned him, ‘You may freely eat the
-           
           </p>
         </div>
         <div className="col">
@@ -110,7 +107,6 @@ function ContactComponent() {
         </div>
       </div>
       <div className="d-flex row">
-      
         <div className="col">
           <h1>the truth will set you free</h1>
           <p>
@@ -140,7 +136,7 @@ function ContactComponent() {
         </div>
       </div>
       <div className="d-flex row">
-      <div className="col">
+        <div className="col">
           <img
             src={manprayBg}
             className="img-rounded float-left img-class2"
@@ -167,10 +163,8 @@ function ContactComponent() {
             2:16-17 says, “But the Lord God warned him, ‘You may freely eat the
           </p>
         </div>
-       
       </div>
       <div className="d-flex row">
-      
         <div className="col">
           <h1>the truth will set you free</h1>
           <p>
@@ -200,7 +194,7 @@ function ContactComponent() {
         </div>
       </div>
       <div className="d-flex row">
-      <div className="col">
+        <div className="col">
           <img
             src={waterBg}
             className="img-rounded float-left img-class2"
@@ -227,7 +221,6 @@ function ContactComponent() {
             2:16-17 says, “But the Lord God warned him, ‘You may freely eat the
           </p>
         </div>
-       
       </div>
     </div>
   );

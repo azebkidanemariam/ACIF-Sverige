@@ -8,7 +8,7 @@ import "./navigation.css";
 function Navigate(props) {
   const handelStart = async (homePage) => {
     const success = await HomePage(homePage);
-    if (success) props.history.push("/home");
+    if (success) props.history.push("/");
   };
   const handelWeekily = async (contactPage) => {
     const success = await ContactPage(contactPage);
@@ -20,7 +20,7 @@ function Navigate(props) {
   };
 
   return (
-    <div className="mt-4">
+    <div className=" container mt-4">
       {/* <div className="justify-content-start align-items-center">ACIF Sweden</div> */}
       <ul className="nav justify-content-end">
         <li className="nav-item">
@@ -28,13 +28,17 @@ function Navigate(props) {
             onClick={handelStart}
             className="nav-link fs-6 nav-style"
             aria-current="page"
-            href="home"
+            href="/"
           >
             Home
           </a>
         </li>
         <li className="nav-item ">
-          <a onClick={handelWeekily} className="nav-link fs-6 nav-style" href="contactUs">
+          <a
+            onClick={handelWeekily}
+            className="nav-link fs-6 nav-style"
+            href="contactUs"
+          >
             About Us
           </a>
         </li>
