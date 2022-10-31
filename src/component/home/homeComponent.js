@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 function HomeComponent() {
   return (
-    <div>
+    <div className="pt-6">
       <div>
         <figure>
           <video

@@ -1,4 +1,4 @@
-import { AccordionItem } from "../component/questionAnswer/accordionItem";
+import FooterComponent from "../component/footer/footer";
 import SundaySchoolComponent from "../component/sunday-school/sschoolcomponent";
 import Navigate from "../navigation/navigation";
 function SundaySchoolPage() {
@@ -6,6 +6,7 @@ function SundaySchoolPage() {
     <div>
       <Navigate />
       <SundaySchoolComponent />
+      <FooterComponent />
     </div>
   );
 }

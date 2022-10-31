@@ -2,7 +2,7 @@ import childrenvideoBg from "../../asset/Children.mp4";
 import "./sschool.css";
 function SundaySchoolComponent() {
   return (
-    <div className="container">
+    <div className="container mt-2">
       <figure>
         <video
           src={childrenvideoBg}
@@ -15,7 +15,7 @@ function SundaySchoolComponent() {
       </figure>
       <h2>Story Time</h2>
       <div>
-        <h3>Jesus Loves you</h3>
+        <h5>Jesus Loves you</h5>
         <p>
           Jesus appeared several times to the disciples after He rose from the
           dead. This is a story of one of those times... Peter said to some of
@@ -67,7 +67,7 @@ function SundaySchoolComponent() {
         </p>
       </div>
       <div>
-        <h3>Abraham and Sara</h3>
+        <h5>Abraham and Sara</h5>
         <p>
           Once there was a man named Abram. One day the Lord came to talk to
           Abram, and Abram asked, "Who will have all my things when I die". God
@@ -175,7 +175,7 @@ function SundaySchoolComponent() {
         </p>
       </div>
       <div>
-        <h3>Moses and the King</h3>
+        <h5>Moses and the King</h5>
         <p>
           Moses was born well over a thousand years before Jesus arrived. When
           he was three months old he was put into a waterproof basket on the
@@ -209,7 +209,7 @@ function SundaySchoolComponent() {
       </div>
 
       <div>
-        <h3>Queen Esther</h3>
+        <h5>Queen Esther</h5>
         <p>
           Long ago, in a country called Persia (Babylon), there was a king named
           Achashveyrosh (as known in Jewish... His Persian name was Xerxes) and
@@ -295,7 +295,7 @@ function SundaySchoolComponent() {
         </p>
       </div>
       <div>
-        <h3>The story of Ruth</h3>
+        <h5>The story of Ruth</h5>
         <p>
           In a place called Moab there lived a nice family. Elimelech, his wife
           Naomi and their two sons moved there because there was more food there
@@ -351,15 +351,16 @@ function SundaySchoolComponent() {
         </p>
       </div>
       <h3>Check this links to teach you kids home</h3>
-      <div>
+      <h5>
         <a href="https://kidscorner.net/bible-stories" target="blank">
           Click here for Audio Bible stories and more
         </a>
-      </div>
-      <div></div>
-      <a href="https://www.dltk-kids.com/bible/cv/index.htm" target="blank">
-        Click here to read Bible stories for your kids
-      </a>
+      </h5>
+      <h5>
+        <a href="https://www.dltk-kids.com/bible/cv/index.htm" target="blank">
+          Click here to read Bible stories for your kids
+        </a>
+      </h5>
     </div>
   );
 }

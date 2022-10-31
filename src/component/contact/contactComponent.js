@@ -10,7 +10,7 @@ import manprayBg from "../../asset/manpray.jpg";
 import "./contact-module.css";
 function ContactComponent() {
   return (
-    <div className="container">
+    <div className="container mt-2">
       <div className="img-class">
         <img
           src={imageBg}

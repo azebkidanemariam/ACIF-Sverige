@@ -12,13 +12,11 @@
 }
 .nav-style {
   color: #012b4d;
-  font-size: 1.6rem;
-  font-weight: 900;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 10px;
 }
 
-a {
-  color: #012b4d;
-}
 .navbar-text {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -43,5 +41,8 @@ li a {
 
 li a:hover {
   background-color: #10162f;
-  border-radius: 5%;
+  border-radius: 50%;
+}
+.nav-container {
+  background-color: #10162f;
 }
