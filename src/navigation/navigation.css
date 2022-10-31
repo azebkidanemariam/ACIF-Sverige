@@ -8,7 +8,7 @@
   box-shadow: 2px 2px 4px rgb(183, 201, 255);
 }
 .shadow-color {
-  color: rgb(183, 201, 255);
+  background-color: none;
 }
 .nav-style {
   color: #012b4d;
@@ -29,5 +29,19 @@ a:hover,
 a:focus {
   color: pink;
 }
-nav {
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+  border-radius: 5%;
 }
