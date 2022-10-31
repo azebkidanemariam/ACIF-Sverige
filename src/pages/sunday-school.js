@@ -5,7 +5,6 @@ function SundaySchoolPage() {
   return (
     <div>
       <Navigate />
-      <AccordionItem />
       <SundaySchoolComponent />
     </div>
   );

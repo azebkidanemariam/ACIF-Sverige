@@ -1,18 +1,22 @@
-
 .footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    height: 200px;
-    width:100%;
-    background: local;
-    color: #000;
-    text-align: center;
-    justify-content: center;
-   
-  }
-li{
-    list-style: none; 
-   
-  }
- 
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  background: local;
+  color: #000;
+  text-align: center;
+  justify-content: center;
+}
+li {
+  list-style: none;
+}
+.social-media {
+  background-color: #012b4d;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  color: #ffff;
+  text-align: center;
+}

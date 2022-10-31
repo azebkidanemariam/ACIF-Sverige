@@ -42,6 +42,6 @@ li a {
 }
 
 li a:hover {
-  background-color: grey;
+  background-color: #10162f;
   border-radius: 5%;
 }

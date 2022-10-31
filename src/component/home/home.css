@@ -74,7 +74,7 @@ h1 {
   color: #005581;
 }
 h3 {
-  color: #012b4d;
+  color: #e78026;
 }
 h5 {
   color: #005581;
@@ -94,10 +94,3 @@ h5 {
   max-width: 60%;
   padding: 1rem 2rem;
 }
-/* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  .glassy-text {
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-} */

@@ -1,13 +1,13 @@
 export const accordionData = [
   {
-    title: "Section 1",
+    title: "Who is Jesus?",
     content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
       laborum cupiditate possimus labore, hic temporibus velit dicta earum
       suscipit commodi eum enim atque at? Et perspiciatis dolore iure
       voluptatem.`,
   },
   {
-    title: "Section 2",
+    title: "What is the true meaning of repentance?",
     content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
       reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
       quaerat iure quos dolorum accusantium ducimus in illum vero commodi
@@ -16,20 +16,20 @@ export const accordionData = [
       Repudiandae, mollitia id reprehenderit a ab odit!`,
   },
   {
-    title: "Section 3",
+    title: "What is babtism?",
     content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
       quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
       dolor ut sequi minus iste? Quas?`,
   },
   {
-    title: "Section 1",
+    title: "Why babtism in the name of Jesus?",
     content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
       laborum cupiditate possimus labore, hic temporibus velit dicta earum
       suscipit commodi eum enim atque at? Et perspiciatis dolore iure
       voluptatem.`,
   },
   {
-    title: "Section 2",
+    title: "What is a Holy Ghost?",
     content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
       reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
       quaerat iure quos dolorum accusantium ducimus in illum vero commodi
@@ -38,20 +38,20 @@ export const accordionData = [
       Repudiandae, mollitia id reprehenderit a ab odit!`,
   },
   {
-    title: "Section 3",
+    title: "Is Jesus God or Son?",
     content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
       quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
       dolor ut sequi minus iste? Quas?`,
   },
   {
-    title: "Section 1",
+    title: "What do you know about the body of Christ?",
     content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
       laborum cupiditate possimus labore, hic temporibus velit dicta earum
       suscipit commodi eum enim atque at? Et perspiciatis dolore iure
       voluptatem.`,
   },
   {
-    title: "Section 2",
+    title: "What is a tempel of God?",
     content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
       reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
       quaerat iure quos dolorum accusantium ducimus in illum vero commodi
@@ -60,20 +60,20 @@ export const accordionData = [
       Repudiandae, mollitia id reprehenderit a ab odit!`,
   },
   {
-    title: "Section 3",
+    title: "What is Holliness as a new born Christian?",
     content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
       quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
       dolor ut sequi minus iste? Quas?`,
   },
   {
-    title: "Section 1",
+    title: "What does marriage symbolise according to bible?",
     content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
       laborum cupiditate possimus labore, hic temporibus velit dicta earum
       suscipit commodi eum enim atque at? Et perspiciatis dolore iure
       voluptatem.`,
   },
   {
-    title: "Section 2",
+    title: "When does the new testement church stabilished?",
     content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
       reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
       quaerat iure quos dolorum accusantium ducimus in illum vero commodi

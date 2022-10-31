@@ -26,21 +26,20 @@ function HomeComponent() {
           <figcaption className=" glassy-text mb-20">
             <h1>Apostolic Church International Fellowship</h1>
 
-            <h3>“Hear, O Israel The Lord Our God the Lord is One"</h3>
+            <h3>“Hear, O Israel: The LORD our God is one LORD"</h3>
             <h5>Deuteronomy 6:4</h5>
           </figcaption>
         </div>
       </div>
 
-      <div className="container-flex">
+      <div className="container">
         <div className="d-flex justify-content-center mt-4 card-body">
           <div className="row ">
             <div className="col">
-              <div className="card card-border">
+              <div className="card card-border ">
                 <img
                   src={repentBg}
-                  className="card-img-top opacity-75 card-border img-one"
-                  style={{ backgroundColor: "#FCDFD8" }}
+                  className="card-img-top card-border img-one"
                   alt="..."
                 />
 
@@ -48,7 +47,9 @@ function HomeComponent() {
                   <h5 className="card-title">Card title</h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    up the bulk of the card's content. Some quick example text
+                    to build on the card title and make up the bulk of the
+                    card's content.
                   </p>
                 </div>
               </div>
@@ -66,7 +67,9 @@ function HomeComponent() {
                   <h5 className="card-title">Card title</h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    up the bulk of the card's content. Some quick example text
+                    to build on the card title and make up the bulk of the
+                    card's content.
                   </p>
                 </div>
               </div>
@@ -83,7 +86,9 @@ function HomeComponent() {
                   <h5 className="card-title">Card title</h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    up the bulk of the card's content. Some quick example text
+                    to build on the card title and make up the bulk of the
+                    card's content.
                   </p>
                 </div>
               </div>
@@ -99,17 +104,25 @@ function HomeComponent() {
                   <h5 className="card-title">Card title</h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
-                    up the bulk of the card's content.Some quick example text to
-                    build on the card title and make up the bulk of the card's
-                    content.Some quick example text to build on the card title
-                    and make up the bulk of the card's content.Some quick
+                    up the bulk of the card's content. Some quick example text
+                    to build on the card title and make up the bulk of the
+                    card's content. Some quick example text to build on the card
+                    title and make up the bulk of the card's content. Some quick
                     example text to build on the card title and make up the bulk
-                    of the card's content.Some quick example text to build on
-                    the card title and make up the bulk of the card's
-                    content.Some quick example text to build on the card title
-                    and make up the bulk of the card's content.Some quick
+                    of the card's content. Some quick example text to build on
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
                     example text to build on the card title and make up the bulk
-                    of the card's content.Some quick example text to build on
+                    of the card's content. Some quick example text to build on
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
+                    the card title and make up the bulk of the card's content.
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
+                    the card title and make up the bulk of the card's content.
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
+                    the card title and make up the bulk of the card's content.
                   </p>
                 </div>
               </div>
@@ -135,17 +148,24 @@ function HomeComponent() {
                   <h5 className="card-title">Card title</h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
-                    up the bulk of the card's content.Some quick example text to
-                    build on the card title and make up the bulk of the card's
-                    content.Some quick example text to build on the card title
-                    and make up the bulk of the card's content.Some quick
+                    up the bulk of the card's content. Some quick example text
+                    to build on the card title and make up the bulk of the
+                    card's content. Some quick example text to build on the card
+                    title and make up the bulk of the card's content. Some quick
                     example text to build on the card title and make up the bulk
-                    of the card's content.Some quick example text to build on
-                    the card title and make up the bulk of the card's
-                    content.Some quick example text to build on the card title
-                    and make up the bulk of the card's content.Some quick
+                    of the card's content. Some quick example text to build on
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
                     example text to build on the card title and make up the bulk
-                    of the card's content.Some quick example text to build on
+                    of the card's content. Some quick example text to build on
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
+                    the card title and make up the bulk of the card's content.
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
+                    the card title and make up the bulk of the card's content.
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
                     the card title and make up the bulk of the card's content.
                   </p>
                 </div>
@@ -159,7 +179,7 @@ function HomeComponent() {
               <div className="card ">
                 <img
                   src="https://previews.123rf.com/images/thingass/thingass1409/thingass140900029/31914794-the-word-repent-typed-on-a-scrap-of-paper-and-pinned-to-a-cork-notice-board.jpg"
-                  className="card-img-top opacity-75"
+                  className="card-img-top"
                   style={{ backgroundColor: "#FCDFD8" }}
                   alt="..."
                 />
@@ -176,10 +196,11 @@ function HomeComponent() {
                     of the card's content. Some quick example text to build on
                     the card title and make up the bulk of the card's content.
                     Some quick example text to build on the card title and make
-                    up the bulk of the card's content. Some quick example text
-                    to build on the card title and make up the bulk of the
-                    card's content. Some quick example text to build on the card
-                    title and make up the bulk of the card's content.
+                    example text to build on the card title and make up the bulk
+                    of the card's content. Some quick example text to build on
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
+                    the card title and make up the bulk of the card's content.
                   </p>
                 </div>
               </div>
@@ -205,12 +226,11 @@ function HomeComponent() {
                     of the card's content. Some quick example text to build on
                     the card title and make up the bulk of the card's content.
                     Some quick example text to build on the card title and make
-                    up the bulk of the card's content. Some quick example text
-                    to build on the card title and make up the bulk of the
-                    card's content Some quick example text to build on the card
-                    title and make up the bulk of the card's content.v Some
-                    quick example text to build on the card title and make up
-                    the bulk of the card's content.
+                    example text to build on the card title and make up the bulk
+                    of the card's content. Some quick example text to build on
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
+                    the card title and make up the bulk of the card's content.
                   </p>
                 </div>
               </div>
@@ -235,6 +255,11 @@ function HomeComponent() {
                     of the card's content. Some quick example text to build on
                     the card title and make up the bulk of the card's content.
                     Some quick example text to build on the card title and make
+                    example text to build on the card title and make up the bulk
+                    of the card's content. Some quick example text to build on
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
+                    the card title and make up the bulk of the card's content.
                   </p>
                 </div>
               </div>
@@ -255,6 +280,11 @@ function HomeComponent() {
                     of the card's content. Some quick example text to build on
                     the card title and make up the bulk of the card's content.
                     Some quick example text to build on the card title and make
+                    example text to build on the card title and make up the bulk
+                    of the card's content. Some quick example text to build on
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
+                    the card title and make up the bulk of the card's content.
                   </p>
                 </div>
               </div>
