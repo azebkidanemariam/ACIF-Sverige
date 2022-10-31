@@ -1,6 +1,6 @@
 import React from "react";
 
 function SundaySchoolComponent() {
-  return <div>{/*  Sunday school */}</div>;
+  return <div className="container"> Sunday school</div>;
 }
 export default SundaySchoolComponent;
