@@ -10,26 +10,28 @@ import "bootstrap/dist/css/bootstrap.css";
 
 function HomeComponent() {
   return (
-    <div className="pt-6">
-      <div>
+    <div className="pt-6 mt-4">
+      <div
+        className="pt-6"
+        style={{ display: "flex", flexDirection: "column" }}
+      >
         <figure>
           <video
             src={waterfallvideoBg}
             autoPlay
             loop
             muted
-            /* className="card-img-top opacity-75 width-90%" */
-            alt="A background video of sky view"
+            alt="A background video of a waterfall"
+            style={{
+              height: 600,
+            }}
           />
         </figure>
-        <div>
-          <figcaption className=" glassy-text mb-20">
-            <h1>Apostolic Church International Fellowship</h1>
-
-            <h3>“Hear, O Israel: The LORD our God is one LORD"</h3>
-            <h5>Deuteronomy 6:4</h5>
-          </figcaption>
-        </div>
+        <figcaption className="glassy-text">
+          <h1>Apostolic Church International Fellowship</h1>
+          <h3>“Hear, O Israel: The LORD our God is one LORD"</h3>
+          <h5>Deuteronomy 6:4</h5>
+        </figcaption>
       </div>
 
       <div className="container">

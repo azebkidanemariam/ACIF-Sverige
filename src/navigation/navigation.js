@@ -4,6 +4,8 @@ import ContactPage from "../pages/contact";
 import SundaySchoolPage from "../pages/sunday-school";
 import QuestionAnswerPage from "../pages/question-answer";
 import "./navigation.css";
+import logo from "../asset/menorah.svg";
+
 import { FaBaby, FaBible, FaHome, FaQuestion } from "react-icons/fa";
 
 function Navigate(props) {
@@ -25,59 +27,59 @@ function Navigate(props) {
   };
 
   return (
-    <nav className="navbar navbar-light nav-container">
-      <div className="nav-container shadow-lg p-3 mb-1 bg-body rounded container d-felx justify-content-end ">
-        <ul className="nav">
-          <li className="nav-item">
-            <a
-              onClick={handelHome}
-              className="nav-link fs-6 nav-style"
-              aria-current="page"
-              href="/"
-            >
-              <div>
-                <FaHome color="#e78026" size={20} />
-              </div>
-              Home
-            </a>
-          </li>
-          <li className="nav-item ">
-            <a
-              onClick={handelAbout}
-              className="nav-link fs-6 nav-style"
-              href="contactUs"
-            >
-              <div>
-                <FaBible color="#e78026" size={21} />
-              </div>
-              About
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              onClick={handelSunday}
-              className="nav-link fs-6 nav-style"
-              href="sundaySchool"
-            >
-              <div>
-                <FaBaby color="#e78026" size={22} />{" "}
-              </div>
-              Kids
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              onClick={handelQuestion}
-              className="nav-link fs-6 nav-style"
-              href="questionAnswer"
-            >
-              <div>
-                <FaQuestion color="#e78026" size={23} />
-              </div>
-              Q & A
-            </a>
-          </li>
-        </ul>
+    <nav className="navbar d-flex flex-row-reverse shadow-lg">
+      <ul className="nav ">
+        <li className="nav-item">
+          <a
+            onClick={handelHome}
+            className="nav-link fs-6 nav-style"
+            aria-current="page"
+            href="/"
+          >
+            <div>{/*   <FaHome color="#e78026" size={20} /> */}</div>
+            Home
+          </a>
+        </li>
+        <li className="nav-item ">
+          <a
+            onClick={handelAbout}
+            className="nav-link fs-6 nav-style"
+            href="contactUs"
+          >
+            <div>{/*     <FaBible color="#e78026" size={21} /> */}</div>
+            About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            onClick={handelSunday}
+            className="nav-link fs-6 nav-style"
+            href="sundaySchool"
+          >
+            <div>{/* <FaBaby color="#e78026" size={22} /> */}</div>
+            Kids
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            onClick={handelQuestion}
+            className="nav-link fs-6 nav-style"
+            href="questionAnswer"
+          >
+            <div>{/* <FaQuestion color="#e78026" size={23} /> */}</div>Q & A
+          </a>
+        </li>
+      </ul>
+
+      <div
+        className="px-3 d-flex justify-content-start  align-items-center "
+        style={{ color: "#005581" }}
+      >
+        <img src={logo} className="logo p-2" alt="a logo" />
+        <div className="p-2 w-100">
+          <h4>Apostolic Church</h4>
+          <h6>Sweden Stockholm</h6>
+        </div>
       </div>
     </nav>
   );

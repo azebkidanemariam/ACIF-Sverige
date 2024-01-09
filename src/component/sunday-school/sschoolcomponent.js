@@ -2,14 +2,13 @@ import childrenvideoBg from "../../asset/Children.mp4";
 import "./sschool.css";
 function SundaySchoolComponent() {
   return (
-    <div className="container mt-2">
+    <div className="container mt-4">
       <figure>
         <video
           src={childrenvideoBg}
           autoPlay
           loop
           muted
-          /* className="card-img-top opacity-75 width-90%" */
           alt="A background video of kids"
         />
       </figure>
