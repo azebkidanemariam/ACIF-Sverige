@@ -7,8 +7,13 @@ export const AccordionItem = () => {
     <div className="demo container mt-4 ">
       <div className="container">
         <div className="panel-group">
-          {accordionData.map(({ title, content, verse }) => (
-            <Accordion title={title} content={content} verse={verse} />
+          {accordionData.map(({ title, content, verse }, index) => (
+            <Accordion
+              key={index}
+              title={title}
+              content={content}
+              verse={verse}
+            />
           ))}
         </div>
       </div>

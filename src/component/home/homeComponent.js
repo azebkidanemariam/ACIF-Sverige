@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 function HomeComponent() {
   return (
-    <div className="pt-6 mt-4">
+    <div className="pt-6">
       <div
         className="pt-6"
         style={{ display: "flex", flexDirection: "column" }}

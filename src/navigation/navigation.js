@@ -6,23 +6,21 @@ import QuestionAnswerPage from "../pages/question-answer";
 import "./navigation.css";
 import logo from "../asset/menorah.svg";
 
-import { FaBaby, FaBible, FaHome, FaQuestion } from "react-icons/fa";
-
 function Navigate(props) {
   const handelHome = async (homePage) => {
-    const success = await HomePage(homePage);
+    const success = HomePage(homePage);
     if (success) props.history.push("/");
   };
-  const handelAbout = async (contactPage) => {
-    const success = await ContactPage(contactPage);
+  async function handelAbout(contactPage) {
+    const success = ContactPage(contactPage);
     if (success) props.history.push("/contactUs");
-  };
+  }
   const handelQuestion = async (questionPage) => {
-    const success = await QuestionAnswerPage(questionPage);
+    const success = QuestionAnswerPage(questionPage);
     if (success) props.history.push("/questionAnswer");
   };
   const handelSunday = async (sschool) => {
-    const success = await SundaySchoolPage(sschool);
+    const success = SundaySchoolPage(sschool);
     if (success) props.history.push("/sundaySchool");
   };
 
@@ -36,7 +34,6 @@ function Navigate(props) {
             aria-current="page"
             href="/"
           >
-            <div>{/*   <FaHome color="#e78026" size={20} /> */}</div>
             Home
           </a>
         </li>
@@ -46,7 +43,6 @@ function Navigate(props) {
             className="nav-link fs-6 nav-style"
             href="contactUs"
           >
-            <div>{/*     <FaBible color="#e78026" size={21} /> */}</div>
             About
           </a>
         </li>
@@ -56,7 +52,6 @@ function Navigate(props) {
             className="nav-link fs-6 nav-style"
             href="sundaySchool"
           >
-            <div>{/* <FaBaby color="#e78026" size={22} /> */}</div>
             Kids
           </a>
         </li>
@@ -66,7 +61,7 @@ function Navigate(props) {
             className="nav-link fs-6 nav-style"
             href="questionAnswer"
           >
-            <div>{/* <FaQuestion color="#e78026" size={23} /> */}</div>Q & A
+            Q & A
           </a>
         </li>
       </ul>
