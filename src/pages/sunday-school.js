@@ -1,13 +1,13 @@
 import FooterComponent from "../component/footer/footer";
-import SundaySchoolComponent from "../component/sunday-school/sschoolcomponent";
+import ContactForm from "../component/sunday-school/sschoolcomponent";
 import Navigate from "../navigation/navigation";
-function SundaySchoolPage() {
+function ContactPage() {
   return (
     <div>
       <Navigate />
-      <SundaySchoolComponent />
+      <ContactForm />
       <FooterComponent />
     </div>
   );
 }
-export default SundaySchoolPage;
+export default ContactPage;

@@ -25,11 +25,13 @@
   padding-bottom: 1rem;
 }
 
-a,
-a:hover,
-a:focus {
-  color: pink;
+a {
+  color: #005581;
 }
+/* a:hover {
+  color: #568eaa;
+} */
+
 li {
   float: left;
 }
@@ -41,14 +43,15 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+li a {
+  color: #005581;
+}
 
-li a:hover {
-  background-color: #10162f;
-}
-li a:active {
-  background-color: #10162f;
-}
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: auto;
+}
+.active-link {
+  color: #e78026;
+  font-weight: bold;
 }

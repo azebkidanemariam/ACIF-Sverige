@@ -1,14 +1,15 @@
 import React from "react";
-import ContactComponent from "../component/contact/contactComponent";
+
 import Navigate from "../navigation/navigation";
 import FooterComponent from "../component/footer/footer";
-function WeBelieveInPage() {
+import SermonComponent from "../component/sermon/sermonComponent";
+function SermonsPage() {
   return (
     <div>
       <Navigate />
-      <ContactComponent />
+      <SermonComponent />
       <FooterComponent />
     </div>
   );
 }
-export default WeBelieveInPage;
+export default SermonsPage;

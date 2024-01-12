@@ -93,3 +93,10 @@ h5 {
   max-width: 60%;
   padding: 1rem 2rem;
 }
+a {
+  color: #005581;
+}
+
+/* a:hover {
+  color: #568eaa;
+} */

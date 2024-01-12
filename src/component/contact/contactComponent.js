@@ -14,7 +14,7 @@ function ContactComponent() {
       <div className="img-class">
         <img
           src={imageBg}
-          className="img-fluid opacity-75 img-class"
+          className="opacity-75 img-class"
           alt="A background video of sky view"
         />
       </div>

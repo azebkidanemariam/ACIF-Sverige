@@ -1,82 +1,125 @@
-import React from "react";
+/* import React, { useState } from "react";
+import { withRouter, Link } from "react-router-dom";
 import HomePage from "../pages/home";
-import ContactPage from "../pages/contact";
-import SundaySchoolPage from "../pages/sunday-school";
+import WeBelieveInPage from "../pages/contact";
 import QuestionAnswerPage from "../pages/question-answer";
+import BookPage from "../pages/books";
 import "./navigation.css";
-import logo from "../asset/menorah.svg";
+import logo from "../asset/Logo.png";
+import SermonsPage from "../pages/sermons";
+import ContactPage from "../pages/sunday-school";
 
 function Navigate(props) {
-  const handelHome = async (homePage) => {
-    const success = HomePage(homePage);
-    if (success) props.history.push("/");
+  const { pathname } = props.location;
+
+ 
+
+  const isActiveLink = (path) =>
+    pathname.toLowerCase().startsWith(path.toLowerCase());
+
+  const handleNavigation = (path) => {
+    props.history.push(path);
   };
-  async function handelAbout(contactPage) {
-    const success = ContactPage(contactPage);
-    if (success) props.history.push("/contactUs");
-  }
-  const handelQuestion = async (questionPage) => {
-    const success = QuestionAnswerPage(questionPage);
-    if (success) props.history.push("/questionAnswer");
-  };
-  const handelSunday = async (sschool) => {
-    const success = SundaySchoolPage(sschool);
-    if (success) props.history.push("/sundaySchool");
-  };
+
+  const navigationLinks = [
+    { name: "Home", component: HomePage },
+    { name: "About", component: WeBelieveInPage },
+    { name: "Sermons", component: SermonsPage },
+    { name: "Books", component: BookPage },
+    { name: "ContactUs", component: ContactPage },
+    { name: "QuestionAnswer", component: QuestionAnswerPage },
+  ];
 
   return (
     <nav className="navbar d-flex flex-row-reverse shadow-lg">
-      <ul className="nav ">
-        <li className="nav-item">
-          <a
-            onClick={handelHome}
-            className="nav-link fs-6 nav-style"
-            aria-current="page"
-            href="/"
-          >
-            Home
-          </a>
-        </li>
-        <li className="nav-item ">
-          <a
-            onClick={handelAbout}
-            className="nav-link fs-6 nav-style"
-            href="contactUs"
-          >
-            About
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            onClick={handelSunday}
-            className="nav-link fs-6 nav-style"
-            href="sundaySchool"
-          >
-            Kids
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            onClick={handelQuestion}
-            className="nav-link fs-6 nav-style"
-            href="questionAnswer"
-          >
-            Q & A
-          </a>
-        </li>
+      <ul className="nav">
+        {navigationLinks.map((link) => (
+          <li className="nav-item" key={link.name}>
+            <a
+              onClick={() => handleNavigation(link.path)}
+              className={`fs-6 nav-style ${
+                isActiveLink(link.path) ? "active-link" : ""
+              }`}
+              aria-current="page"
+              href={link.path}
+            >
+              {link.name}
+            </a>
+          </li>
+        ))}
       </ul>
 
       <div
-        className="px-3 d-flex justify-content-start  align-items-center "
+        className="px-3 d-flex justify-content-start align-items-center"
         style={{ color: "#005581" }}
       >
-        <img src={logo} className="logo p-2" alt="a logo" />
+        <img src={logo} className="logo " alt="a logo" />
         <div className="p-2 w-100">
-          <h4>Apostolic Church</h4>
+          <h4>ACIF</h4>
           <h6>Sweden Stockholm</h6>
         </div>
       </div>
     </nav>
   );
 }
+
+export default withRouter(Navigate);
+ */
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+import logo from "../asset/Logo.png";
+import "./navigation.css";
+
+function Navigate() {
+  const navigate = useNavigate();
+
+  const navigationLinks = [
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about" },
+    { name: "Sermons", path: "/sermons" },
+    { name: "Books", path: "/books" },
+    { name: "ContactUs", path: "/contactUs" },
+    { name: "QuestionAnswer", path: "/questionAnswer" },
+  ];
+
+  const isActiveLink = (path) =>
+    (path === "" && window.location.pathname === "/") ||
+    window.location.pathname.toLowerCase().startsWith(path.toLowerCase());
+
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
+
+  return (
+    <nav className="navbar d-flex flex-row-reverse shadow-lg">
+      <ul className="nav">
+        {navigationLinks.map((link) => (
+          <li className="nav-item" key={link.name}>
+            <Link
+              onClick={() => handleNavigation(link.path)}
+              className={`fs-6 nav-style ${
+                isActiveLink(link.path) ? "active-link" : ""
+              }`}
+              to={link.path}
+            >
+              {link.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+
+      <div
+        className="px-3 d-flex justify-content-start align-items-center"
+        style={{ color: "#005581" }}
+      >
+        <img src={logo} className="logo " alt="a logo" />
+        <div className="p-2 w-100">
+          <h4>ACIF</h4>
+          <h6>Sweden Stockholm</h6>
+        </div>
+      </div>
+    </nav>
+  );
+}
+
 export default Navigate;

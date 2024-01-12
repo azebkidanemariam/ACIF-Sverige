@@ -1,14 +1,15 @@
 import React from "react";
-import ContactComponent from "../component/contact/contactComponent";
+
 import Navigate from "../navigation/navigation";
 import FooterComponent from "../component/footer/footer";
-function WeBelieveInPage() {
+import BooksComponent from "../component/books/booksComponent";
+function BookPage() {
   return (
     <div>
       <Navigate />
-      <ContactComponent />
+      <BooksComponent />
       <FooterComponent />
     </div>
   );
 }
-export default WeBelieveInPage;
+export default BookPage;
