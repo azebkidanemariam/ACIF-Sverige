@@ -4,8 +4,7 @@ import waterfallvideoBg from "../../asset/waterfallBg.mp4";
 import churchBg from "../../asset/cross.jpg";
 import londonBg from "../../asset/london.jpg";
 import holyspiritBg from "../../asset/manpray.jpg";
-import lovedBg from "../../asset/loved.jpg";
-import raisedhandsBg from "../../asset/raisedhands.jpg";
+import welcomeBg from "../../asset/welcome.jpg";
 import "bootstrap/dist/css/bootstrap.css";
 import DailyVerses from "../dailyverse";
 
@@ -59,8 +58,50 @@ function HomeComponent() {
         </figcaption>
       </div>
 
-      <div className="container">
+      <div className="container ">
         <DailyVerses />
+        <div className="container mt-5 border-1 shadow-lg">
+          <div className="row d-flex align-items-stretch">
+            <div className="col-md-6">
+              <img
+                src={welcomeBg}
+                className="card-img-top image-fluid h-100"
+                alt="..."
+              />
+            </div>
+            <div className="col-md-6">
+              <h5 className="card-title pb-2 pt-2">Welcome to ACIF, Sweden!</h5>
+              <div className="d-flex flex-column h-50">
+                <p className="flex-grow-1 card-text text-muted">
+                  Greetings in the name of our Lord and Savior, Jesus Christ! We
+                  are delighted to have you visit our church's online home.
+                  Whether you are a longtime member or a first-time visitor, we
+                  extend a heartfelt welcome to you. At ACIF, we believe in the
+                  power of faith, love, and community. Our church is not just a
+                  building; it's a family. As you navigate through our website,
+                  we hope you sense the warmth and love that defines our
+                  congregation. Whether you are seeking a place of worship,
+                  spiritual growth, or a community to connect with, we are here
+                  for you. Join us for our uplifting worship services, engaging
+                  events, and meaningful fellowship opportunities. Explore the
+                  various ministries that cater to all age groups and interests,
+                  and discover the ways you can get involved. Feel free to reach
+                  out if you have any questions or if there's anything we can
+                  assist you with. We are here to serve and support one another
+                  on our faith journeys. Thank you for taking the time to
+                  explore our website. We look forward to the possibility of
+                  meeting you in person and sharing the joy of Christ together.
+                  May God's love and blessings be with you always! In Christ's
+                  love,
+                </p>
+                <h5 className="card-title pb-2 pt-2">
+                  Apostolic Church international Fellowship
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="d-flex justify-content-center mt-4 card-body ">
           <div className="row ">
             <div className="col-md-6 col-lg-4">
@@ -158,95 +199,12 @@ function HomeComponent() {
 
         <div className="d-flex justify-content-center mt-4 card-body text-center">
           <div className="row">
-            <div className="col-12 col-md-6 order-md-1 order-2 ">
-              <div className="card">
-                <div className="card-body">
-                  <h5 className="card-title">Hello</h5>
-                  <p className="card-text ">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content. Some quick example text
-                    to build on the card title and make up the bulk of the
-                    card's content. Some quick example text to build on the card
-                    title and make up the bulk of the card's content. Some quick
-                    example text to build on the card title and make up the bulk
-                    of the card's content. Some quick example text to build on
-                    the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
-                    example text to build on the card title and make up the bulk
-                    of the card's content. Some quick example text to build on
-                    the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
-                    the card title and make up the bulk of the card's content.
-                    the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
-                    the card title and make up the bulk of the card's content.
-                    the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
-                    the card title and make up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12 col-md-6 order-md-1 order-1">
-              <div className="card">
-                <img src={lovedBg} className="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="d-flex justify-content-center mt-4 card-body text-center">
-          <div className="row">
-            <div className="col-12 col-md-6 order-md-2 order-2">
-              <div className="card">
-                <div className="card-body">
-                  <h5 className="card-title">Raised hands</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content. Some quick example text
-                    to build on the card title and make up the bulk of the
-                    card's content. Some quick example text to build on the card
-                    title and make up the bulk of the card's content. Some quick
-                    example text to build on the card title and make up the bulk
-                    of the card's content. Some quick example text to build on
-                    the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
-                    example text to build on the card title and make up the bulk
-                    of the card's content. Some quick example text to build on
-                    the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
-                    the card title and make up the bulk of the card's content.
-                    the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
-                    the card title and make up the bulk of the card's content.
-                    the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
-                    the card title and make up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12 col-md-6 order-md-1 order-1">
-              <div className="card">
-                <img src={raisedhandsBg} className="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="d-flex justify-content-center mt-4 card-body text-center">
-          <div className="row">
             <div className="col-md-12 col-lg-3">
-              <div className="card border-0 shadow-lg">
-                {/* <img
-          src="https://previews.123rf.com/images/thingass/thingass1409/thingass140900029/31914794-the-word-repent-typed-on-a-scrap-of-paper-and-pinned-to-a-cork-notice-board.jpg"
-          className="card-img-top"
-          style={{ backgroundColor: "#FCDFD8" }}
-          alt="..."
-        /> */}
-                <div className="card-body card-one ">
+              <div className="card border-0 shadow-lg ">
+                <div
+                  className="card-body card-one "
+                  style={{ height: "800px" }}
+                >
                   <h5 className="card-title">
                     Unfathomable Love: A Sermon on the Love of Jesus
                   </h5>
@@ -267,14 +225,9 @@ function HomeComponent() {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 col-lg-3">
+            <div className="col-md-12 col-lg-3 h-100">
               <div className="card border-0 shadow-lg">
-                {/* <img
-          src="https://www.northheightscoc.org/wp-content/uploads/2020/01/baptism_from_above_baptism-Wide-16x9.jpg"
-          className="card-img-top"
-          alt="..."
-        /> */}
-                <div className="card-body">
+                <div className="card-body" style={{ height: "800px" }}>
                   <h5 className="card-title">Conferences</h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
@@ -293,16 +246,11 @@ function HomeComponent() {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 col-lg-3">
+            <div className="col-md-12 col-lg-3 h-100">
               <div className="card border-0 shadow-lg">
-                {/* <img
-          src="https://i0.wp.com/radicallychristian.com/wp-content/uploads/2014/05/Holy-Spirit.jpg?fit=600%2C350&ssl=1"
-          className="card-img-top"
-          alt="..."
-        /> */}
                 <div
                   className="card-body"
-                  style={{ backgroundColor: "#DDEDDE" }}
+                  style={{ backgroundColor: "#DDEDDE", height: "800px" }}
                 >
                   <h5 className="card-title">Bible Study & Prayer</h5>
                   <p className="card-text">
@@ -322,9 +270,9 @@ function HomeComponent() {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 col-lg-3">
+            <div className="col-md-12 col-lg-3 h-100">
               <div className="card border-0 shadow-lg">
-                <div className="card-body card-two">
+                <div className="card-body card-two" style={{ height: "800px" }}>
                   <h5 className="card-title">
                     Card title the bulk of the card's content
                   </h5>

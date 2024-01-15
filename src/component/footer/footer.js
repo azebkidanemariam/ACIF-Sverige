@@ -7,26 +7,26 @@ function FooterComponent() {
   return (
     <footer className="container">
       <hr />
-      <div className="shadow-lg p-3 mb-5 bg-body rounded">
-        <div className="row d-flex justify-content-between">
-          <ul className="col-4">
-            <h4>Contact Us</h4>
+      <div className="shadow-lg p-3 mb-5 bg-body rounded container">
+        <div className="row d-flex justify-content-between ">
+          <ul className="col-md-4 col-12">
+            <h5>Contact Us</h5>
             <li>
-              <strong>Email:</strong> apostolic_swe@yahoo.com
+              <strong>Email - </strong> apostolic_swe@yahoo.com
             </li>
             <li>
-              <strong>Telephone:</strong> +46 73 700 5226
+              <strong>Telephone - </strong> +46 73 700 5226
             </li>
             <li>
-              <strong>Church Address:</strong> BorgenVägen 16 Danderyd
+              <strong>Church Address - </strong> BorgenVägen 16 Danderyd
             </li>
             <li>
-              <strong>Postal Address:</strong> FrihetsVägen 54 17733 Järfalla
+              <strong>Postal Address - </strong> FrihetsVägen 54 17733 Järfalla
             </li>
           </ul>
 
           <ul className="col-2">
-            <h4>Services</h4>
+            <h5>Services</h5>
             <li>Sunday Service</li>
             <li>Bible Studying</li>
             <li>Sunday School</li>
