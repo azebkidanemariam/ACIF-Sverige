@@ -3,8 +3,6 @@ import imageBg from "../../asset/imageBg.jpg";
 import wineBg from "../../asset/wine.jpg";
 import oceanBg from "../../asset/ocean.jpg";
 import stoneBg from "../../asset/stone.jpg";
-import loveBg from "../../asset/love.jpg";
-import waterBg from "../../asset/water.jpg";
 import prayBg from "../../asset/pray.jpg";
 import manprayBg from "../../asset/manpray.jpg";
 import "./contact-module.css";
@@ -18,7 +16,7 @@ function ContactComponent() {
           alt="A background video of sky view"
         />
       </div>
-      <div className="d-flex row mt-10">
+      <div className="d-flex row mt-20 container">
         <div className="col">
           <img
             src={stoneBg}
@@ -27,7 +25,7 @@ function ContactComponent() {
           />
         </div>
         <div className="col">
-          <h1>Salivation</h1>
+          <h1>Salvation</h1>
           <p>
             While the word “salvation” has several meanings, in this writing it
             is used to express the act of saving the human soul from sin and its
@@ -52,7 +50,7 @@ function ContactComponent() {
         </div>
       </div>
 
-      <div className="d-flex row">
+      <div className="d-flex row ">
         <div className="col">
           <h1>Believing In The Only God Of Salvation</h1>
           <p>
@@ -108,7 +106,7 @@ function ContactComponent() {
           </p>
         </div>
       </div>
-      <div className="d-flex row">
+      <div className="d-flex row ">
         <div className="col">
           <h1>Baptism In The Name Of Jesus Christ</h1>
           <p>
@@ -154,7 +152,7 @@ function ContactComponent() {
         </div>
       </div>
       <div className="d-flex row">
-        <div className="col">
+        {/*   <div className="col">
           <h1>the truth will set you free</h1>
           <p>
             n John 14:6, Jesus said, “I am the way, the truth, and the life. No
@@ -173,16 +171,16 @@ function ContactComponent() {
             Garden of Eden. They only had one rule they had to follow. Genesis
             2:16-17 says, “But the Lord God warned him, ‘You may freely eat the
           </p>
-        </div>
-        <div className="col">
+        </div> */}
+        {/* <div className="col">
           <img
             src={loveBg}
             className="img-rounded float-left img-class2"
             alt="a lemon"
           />
-        </div>
+        </div> */}
       </div>
-      <div className="d-flex row">
+      {/*  <div className="d-flex row">
         <div className="col">
           <img
             src={waterBg}
@@ -210,7 +208,7 @@ function ContactComponent() {
             2:16-17 says, “But the Lord God warned him, ‘You may freely eat the
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

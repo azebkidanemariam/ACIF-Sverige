@@ -1,8 +1,8 @@
 import React from "react";
 import "./home.css";
 import waterfallvideoBg from "../../asset/waterfallBg.mp4";
-import repentBg from "../../asset/sundayservice.jpg";
-import babtismBg from "../../asset/uk.jpg";
+import churchBg from "../../asset/cross.jpg";
+import londonBg from "../../asset/london.jpg";
 import holyspiritBg from "../../asset/manpray.jpg";
 import lovedBg from "../../asset/loved.jpg";
 import raisedhandsBg from "../../asset/raisedhands.jpg";
@@ -61,17 +61,20 @@ function HomeComponent() {
 
       <div className="container">
         <DailyVerses />
-        <div className="d-flex justify-content-center mt-4 card-body">
+        <div className="d-flex justify-content-center mt-4 card-body ">
           <div className="row ">
-            <div className="col">
-              <div className="card card-border d-flex flex-column">
+            <div className="col-md-6 col-lg-4">
+              <div className="card d-flex flex-column border-0 shadow-lg align-items-stretch">
                 <img
-                  src={repentBg}
-                  className="card-img-top card-border img-one"
+                  src={churchBg}
+                  className="card-img-top card-border img-one "
                   alt="..."
                 />
 
-                <div className="card-body">
+                <div
+                  className="card-body d-flex flex-fill flex-column"
+                  style={{ height: "300px" }}
+                >
                   <h5 className="card-title">Place Of Worship</h5>
                   <div className="card-text pt-3">
                     <EventDetail
@@ -85,15 +88,18 @@ function HomeComponent() {
               </div>
             </div>
 
-            <div className="col">
-              <div className="card card-border d-flex flex-column">
+            <div className="col-md-6 col-lg-4">
+              <div className="card d-flex flex-column border-0 shadow-lg align-items-stretch">
                 <img
-                  src={babtismBg}
+                  src={londonBg}
                   className="card-img-top card-border img-one"
                   alt="..."
                 />
 
-                <div className="card-body">
+                <div
+                  className="card-body d-flex flex-fill flex-column"
+                  style={{ height: "300px" }}
+                >
                   <h5 className="card-title">Conferences</h5>
 
                   <div className="card-text pt-3">
@@ -103,12 +109,12 @@ function HomeComponent() {
                       date="August 2nd - August 4th, 2024"
                       time="To be announced..."
                     />
-                    <div className="text-center ">
+                    <div className="text-center">
                       <a
                         href="https://www.smartsurvey.co.uk/s/YP0EE1/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className=" link-button"
+                        className="link-button"
                       >
                         Book Hotel
                       </a>
@@ -118,15 +124,18 @@ function HomeComponent() {
               </div>
             </div>
 
-            <div className="col">
-              <div className="card card-border d-flex flex-column">
+            <div className="col-md-6 col-lg-4">
+              <div className="card d-flex flex-column border-0 shadow-lg align-items-stretch">
                 <img
                   src={holyspiritBg}
-                  className="card-img-top card-border img-one"
+                  className="card-img-top card-border img-one "
                   alt="..."
                 />
 
-                <div className="card-body">
+                <div
+                  className="card-body d-flex flex-fill flex-column"
+                  style={{ height: "300px" }}
+                >
                   <h5 className="card-title">Weekly Bible Study & Prayer</h5>
 
                   <h6>18.00 - 20:00 CET</h6>
@@ -147,13 +156,13 @@ function HomeComponent() {
           </div>
         </div>
 
-        <div className="d-flex justify-content-center mt-4 card-body">
-          <div className="row ">
-            <div className="col">
+        <div className="d-flex justify-content-center mt-4 card-body text-center">
+          <div className="row">
+            <div className="col-12 col-md-6 order-md-1 order-2 ">
               <div className="card">
-                <div className="card-body ">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
+                <div className="card-body">
+                  <h5 className="card-title">Hello</h5>
+                  <p className="card-text ">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content. Some quick example text
                     to build on the card title and make up the bulk of the
@@ -179,24 +188,20 @@ function HomeComponent() {
               </div>
             </div>
 
-            <div className="col">
+            <div className="col-12 col-md-6 order-md-1 order-1">
               <div className="card">
                 <img src={lovedBg} className="card-img-top" alt="..." />
               </div>
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center mt-4 card-body">
-          <div className="row ">
-            <div className="col">
+
+        <div className="d-flex justify-content-center mt-4 card-body text-center">
+          <div className="row">
+            <div className="col-12 col-md-6 order-md-2 order-2">
               <div className="card">
-                <img src={raisedhandsBg} className="card-img-top" alt="..." />
-              </div>
-            </div>
-            <div className="col">
-              <div className="card">
-                <div className="card-body ">
-                  <h5 className="card-title">Card title</h5>
+                <div className="card-body">
+                  <h5 className="card-title">Raised hands</h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content. Some quick example text
@@ -222,58 +227,55 @@ function HomeComponent() {
                 </div>
               </div>
             </div>
+
+            <div className="col-12 col-md-6 order-md-1 order-1">
+              <div className="card">
+                <img src={raisedhandsBg} className="card-img-top" alt="..." />
+              </div>
+            </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center mt-4 card-body">
-          <div className="row ">
-            <div className="col">
-              <div className="card ">
-                <img
-                  src="https://previews.123rf.com/images/thingass/thingass1409/thingass140900029/31914794-the-word-repent-typed-on-a-scrap-of-paper-and-pinned-to-a-cork-notice-board.jpg"
-                  className="card-img-top"
-                  style={{ backgroundColor: "#FCDFD8" }}
-                  alt="..."
-                />
 
+        <div className="d-flex justify-content-center mt-4 card-body text-center">
+          <div className="row">
+            <div className="col-md-12 col-lg-3">
+              <div className="card border-0 shadow-lg">
+                {/* <img
+          src="https://previews.123rf.com/images/thingass/thingass1409/thingass140900029/31914794-the-word-repent-typed-on-a-scrap-of-paper-and-pinned-to-a-cork-notice-board.jpg"
+          className="card-img-top"
+          style={{ backgroundColor: "#FCDFD8" }}
+          alt="..."
+        /> */}
                 <div className="card-body card-one ">
                   <h5 className="card-title">
                     Unfathomable Love: A Sermon on the Love of Jesus
                   </h5>
                   <p className="card-text">
-                    Introduction: Beloved in Christ, Today, let's explore the
-                    incomprehensible love of our Lord and Savior, Jesus Christ.
-                    I. Foundation of Love: God's Love for Humanity In 1 John
-                    4:16, we're reminded that God is love, and His love is the
-                    source of all love. II. Jesus Demonstrates Love through
-                    Sacrifice John 3:16 reveals the apex of God's love – the
-                    sacrifice of His Son for our redemption. III. Love that
-                    Transforms: Jesus and the Sinful Woman The story in Luke
-                    7:36-50 illustrates Jesus' transformative love, breaking
-                    societal norms to offer redemption. IV. Incomparable and
-                    Unconditional Love Romans 8:38-39 assures us that nothing
-                    can separate us from Jesus' unconditional love. V.
-                    Responding to the Love of Jesus Our response to Jesus' love
-                    is crucial – it involves obedience to His commands and a
-                    commitment to love others. Conclusion: As we ponder the love
-                    of Jesus, may it inspire us to reflect His love in our
-                    actions and relationships. May His love be the driving force
-                    in all we do. May the overwhelming love of Jesus fill our
-                    hearts and spill over into a world that desperately needs
-                    it. Amen.
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content. Some quick example text
+                    to build on the card title and make up the bulk of the
+                    card's content. Some quick example text to build on the card
+                    title and make up the bulk of the card's content. Some quick
+                    example text to build on the card title and make up the bulk
+                    of the card's content. Some quick example text to build on
+                    the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make
+                    example text to build on the card title and make up the bulk
+                    of the card's content. Some quick example text to build on
+                    the card title and make up the bulk of the card's content.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col">
-              <div className="card">
-                <img
-                  src="https://www.northheightscoc.org/wp-content/uploads/2020/01/baptism_from_above_baptism-Wide-16x9.jpg"
-                  className="card-img-top"
-                  alt="..."
-                />
-
+            <div className="col-md-12 col-lg-3">
+              <div className="card border-0 shadow-lg">
+                {/* <img
+          src="https://www.northheightscoc.org/wp-content/uploads/2020/01/baptism_from_above_baptism-Wide-16x9.jpg"
+          className="card-img-top"
+          alt="..."
+        /> */}
                 <div className="card-body">
-                  <h5 className="card-title">Confrences</h5>
+                  <h5 className="card-title">Conferences</h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content. Some quick example text
@@ -287,21 +289,21 @@ function HomeComponent() {
                     example text to build on the card title and make up the bulk
                     of the card's content. Some quick example text to build on
                     the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
-                    the card title and make up the bulk of the card's content.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col">
-              <div className="card">
-                <img
-                  src="https://i0.wp.com/radicallychristian.com/wp-content/uploads/2014/05/Holy-Spirit.jpg?fit=600%2C350&ssl=1"
-                  className="card-img-top"
-                  alt="..."
-                />
-
-                <div className="card-body">
+            <div className="col-md-12 col-lg-3">
+              <div className="card border-0 shadow-lg">
+                {/* <img
+          src="https://i0.wp.com/radicallychristian.com/wp-content/uploads/2014/05/Holy-Spirit.jpg?fit=600%2C350&ssl=1"
+          className="card-img-top"
+          alt="..."
+        /> */}
+                <div
+                  className="card-body"
+                  style={{ backgroundColor: "#DDEDDE" }}
+                >
                   <h5 className="card-title">Bible Study & Prayer</h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
@@ -316,14 +318,12 @@ function HomeComponent() {
                     example text to build on the card title and make up the bulk
                     of the card's content. Some quick example text to build on
                     the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
-                    the card title and make up the bulk of the card's content.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col">
-              <div className="card">
+            <div className="col-md-12 col-lg-3">
+              <div className="card border-0 shadow-lg">
                 <div className="card-body card-two">
                   <h5 className="card-title">
                     Card title the bulk of the card's content
@@ -340,8 +340,6 @@ function HomeComponent() {
                     Some quick example text to build on the card title and make
                     example text to build on the card title and make up the bulk
                     of the card's content. Some quick example text to build on
-                    the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make
                     the card title and make up the bulk of the card's content.
                   </p>
                 </div>

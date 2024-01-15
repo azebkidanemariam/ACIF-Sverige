@@ -26,8 +26,8 @@ function FooterComponent() {
           </ul>
 
           <ul className="col-2">
-            <h4>We Offer</h4>
-            <li>Sunday service</li>
+            <h4>Services</h4>
+            <li>Sunday Service</li>
             <li>Bible Studying</li>
             <li>Sunday School</li>
             <li>Prayer Service</li>
@@ -36,8 +36,8 @@ function FooterComponent() {
 
         <div class="social-media">
           <h6>You can find us at</h6>
-          <ul class="list-unstyled list-inline d-flex justify-content-center ">
-            <li class="list-inline-item">
+          <ul className="list-unstyled list-inline d-flex justify-content-center ">
+            <li className="list-inline-item">
               <FaFacebook />
             </li>
             <li class="list-inline-item">
