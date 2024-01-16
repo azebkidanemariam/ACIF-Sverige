@@ -5,9 +5,8 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 function FooterComponent() {
   return (
-    <footer className="container">
-      <hr />
-      <div className="shadow-lg p-3 mb-5 bg-body rounded container">
+    <footer className="container text-start text-muted">
+      <div className="shadow-lg p-3 mb-5 mt-4 bg-body rounded container">
         <div className="row d-flex justify-content-between ">
           <ul className="col-md-4 col-12">
             <h5>Contact Us</h5>
@@ -25,7 +24,7 @@ function FooterComponent() {
             </li>
           </ul>
 
-          <ul className="col-2">
+          <ul class="col-md-2 col-6">
             <h5>Services</h5>
             <li>Sunday Service</li>
             <li>Bible Studying</li>
@@ -34,7 +33,7 @@ function FooterComponent() {
           </ul>
         </div>
 
-        <div class="social-media">
+        <div class="social-media ">
           <h6>You can find us at</h6>
           <ul className="list-unstyled list-inline d-flex justify-content-center ">
             <li className="list-inline-item">

@@ -1,43 +1,22 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 
-import sermonImage1 from "../../asset/loved.jpg";
+import sermonImage1 from "../../asset/army.jpg";
 import sermonImage2 from "../../asset/raisedhands.jpg"; // Import image for sermon 2
 
 const SermonComponent = () => {
   const [showMoreSermon1, setShowMoreSermon1] = useState(false);
   const [showMoreSermon2, setShowMoreSermon2] = useState(false);
   const sermon1Content = `
-  Title: "The Doctrine of One God: Unveiling the Majesty of the Almighty"
+ In the battleground of life, amidst the intense spiritual warfare, the adversary constantly seeks to deceive, exploiting vulnerabilities in both strength and weakness. The Apostle Paul warns us about the cunning schemes of the devil, urging believers to stand firm against the wiles of the adversary (Ephesians 6:11; 2 Corinthians 2:11). Satan, known as the deceiver, masquerades as an angel of light, making discernment crucial (2 Corinthians 11:14). He subtly whispers lies to confuse and distract, aiming to undermine the work of God.
 
-  Introduction:
-  Good [morning/afternoon/evening], dear brothers and sisters in Christ. Today, our hearts are drawn to the profound and foundational truth of our faith—the doctrine of one God. In a world of diverse beliefs and varying ideologies, we anchor ourselves in the revelation of Scripture that declares the oneness and majesty of our God.
-  
-  Opening Scripture:
-  Let us ground our reflections in Deuteronomy 6:4, where Moses declares, "Hear, O Israel: The LORD our God, the LORD is one."
-  
-  Body:
-  
-  The Uniqueness of Our God:
-  The doctrine of one God sets our faith apart. It emphasizes the uniqueness and exclusivity of our God. In a culture filled with myriad deities, we stand firm in the acknowledgment that there is only one true and living God.
-  
-  Creator of Heaven and Earth:
-  Our God is the Creator of the heavens and the earth. From the vast galaxies to the intricacies of every living being, His sovereignty reigns supreme. Understanding the oneness of God compels us to recognize His authority over all creation.
-  
-  The Revelation of God in Jesus Christ:
-  In the person of Jesus Christ, the oneness of God is revealed in a profound way. Jesus declared, "I and the Father are one" (John 10:30). Through Christ, we see the perfect unity of the Father, the Son, and the Holy Spirit—a divine mystery that invites awe and worship.
-  
-  Our Response: Worship and Devotion:
-  The doctrine of one God calls us to respond with wholehearted worship and devotion. As we grasp the magnitude of His oneness, our hearts are stirred to love Him with all our being. We are invited into a relationship with the One who is both transcendent and immanent.
-  
-  Closing Scripture:
-  Let us conclude our reflection with Isaiah 45:5, where the Lord declares, "I am the LORD, and there is no other, besides me there is no God."
-  
-  Conclusion:
-  Beloved, let the doctrine of one God be the bedrock of our faith—a truth that guides our worship, shapes our worldview, and compels us to share the message of His oneness with a world in need of salvation. May our lives reflect the glory of the One God who is worthy of all praise.
-  
-  Closing Prayer:
-  Heavenly Father, we stand in awe of your oneness and majesty. Help us, O God, to live in light of this foundational truth and to proclaim it boldly to those around us. May our lives be a testimony to the greatness of the One God in whom we find our hope and salvation. In Jesus' name, we pray. Amen.
+The scripture emphasizes the need for spiritual vigilance, urging believers to be watchful and alert. The enemy, like a roaring lion, seeks whom he may devour (1 Peter 5:8). Therefore, believers must resist the devil and stand firm in the faith (James 4:7). The spiritual battle involves recognizing the enemy's tactics and engaging in the armor of God (Ephesians 6:10-18).
+
+In the midst of this struggle, believers are called to be separate from the world, not conforming to its patterns but rather transforming through the renewing of the mind (Romans 12:2). The Church, as the body of Christ, is called to be a peculiar people, set apart for God's purposes (1 Peter 2:9). Discernment and adherence to biblical truths are essential for navigating the complexities of the spiritual battlefield.
+
+The Apostle John warns against false prophets and teaches that believers have received the anointing of the Holy Spirit, enabling them to discern between truth and error (1 John 2:20, 27). The Church, as the pillar and foundation of the truth, plays a crucial role in upholding sound doctrine (1 Timothy 3:15).
+
+Ultimately, believers find strength in Christ, the captain of their salvation. By abiding in Him and relying on the guidance of the Holy Spirit, they can overcome the tactics of the enemy. The Church, empowered by the Word of God, stands as a beacon of light in a dark world, proclaiming the victory found in Christ.
   `;
 
   const sermon2Content = `
@@ -87,14 +66,14 @@ Heavenly Father, we thank you for the immeasurable love demonstrated through you
 
     return (
       <div className="col-md-6 mb-4">
-        <div className="card">
+        <div className="card border-0 shadow-lg">
           <img src={sermonImage} className="card-img-top" alt="Sermon" />
           <div className="card-body">
             <h4 className="card-title">{title}</h4>
             <p className="card-text">{visibleContent}</p>
             {words.length > wordsToShow && (
               <button
-                className="btn btn-primary"
+                className="link-button border-0"
                 onClick={() => setShowMore(!showMore)}
               >
                 {showMore ? "Show Less" : "Show More"}
@@ -110,7 +89,7 @@ Heavenly Father, we thank you for the immeasurable love demonstrated through you
     <div className="container mt-4">
       <div className="row">
         {renderSermon(
-          "The Majesty of the One God",
+          "Ascetic Christian Army",
           sermon1Content,
           showMoreSermon1,
           setShowMoreSermon1,

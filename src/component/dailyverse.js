@@ -37,11 +37,11 @@ const DailyVerses = () => {
   const currentDay = new Date().getDate();
 
   return (
-    <div className="container mt-5">
+    <div className=" mt-5">
       <div className="card border-0 shadow-lg">
-        <div className="card-body" style={{ backgroundColor: "#DDEDDE" }}>
+        <div className="card-body card-three">
           <h5 className="card-title text-center mb-4">Daily Verses</h5>
-          <p className="card-text lead text-muted">{verses[currentDay - 1]}</p>
+          <p className="card-text lead ">{verses[currentDay - 1]}</p>
         </div>
       </div>
     </div>
