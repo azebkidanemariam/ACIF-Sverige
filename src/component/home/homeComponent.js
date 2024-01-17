@@ -181,7 +181,7 @@ function HomeComponent() {
             muted
             alt="A background video of a waterfall"
             className="w-100"
-            style={{ height: "600px" }}
+            style={{ height: "400px", opacity: "0.4" }}
           />
         </figure>
         <figcaption className="glassy-text position-absolute  top-50 translate-middle-y px-3 py-2">
