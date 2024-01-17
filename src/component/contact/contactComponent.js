@@ -16,13 +16,13 @@ function Section({
   imageOnLeft = true,
 }) {
   return (
-    <div className="container mt-5 border-1 shadow-lg">
+    <div className="mt-5  shadow-lg">
       <div
         className={`row d-flex align-items-stretch ${
           imageOnLeft ? "" : "flex-row-reverse"
         }`}
       >
-        <div className="col-md-6 p-0">
+        <div className="col-md-6 ">
           <img src={image} className={`${imageClass} h-100`} alt={title} />
         </div>
         <div className="col p-4">
