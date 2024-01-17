@@ -41,7 +41,7 @@ const WelcomeSection = () => (
           alt="..."
         />
       </div>
-      <div className="col-md-6 p-4">
+      <div className="col p-4">
         <h5 className="card-title pb-2 pt-2">Welcome to ACIF, Sweden!</h5>
         <div className="d-flex flex-column h-50">
           <p className="flex-grow-1 card-text text-muted">
@@ -74,7 +74,7 @@ const WelcomeSection = () => (
 );
 
 const EventCard = ({ imgSrc, title, details }) => (
-  <div className="col-md-6 col-lg-4">
+  <div className="col-12 col-md-4 mb-4">
     <div className="card d-flex flex-column border-0 shadow-lg align-items-stretch">
       <img
         src={imgSrc}
@@ -84,7 +84,7 @@ const EventCard = ({ imgSrc, title, details }) => (
 
       <div
         className="card-body d-flex flex-fill flex-column"
-        style={{ height: "300px" }}
+        style={{ minHeight: "200px", height: "300px" }}
       >
         <h5 className="card-title">{title}</h5>
         <div className="card-text pt-3">{details}</div>
@@ -95,7 +95,7 @@ const EventCard = ({ imgSrc, title, details }) => (
 
 const EventSection = () => (
   <div className="d-flex justify-content-center mt-4 card-body container text-start text-secondary">
-    <div className="row m-0">
+    <div className="row">
       <EventCard
         imgSrc={churchBg}
         title={"Place Of Worship"}
@@ -153,7 +153,8 @@ const EventSection = () => (
   </div>
 );
 const Card = ({ title, content, extraClasses = [] }) => (
-  <div className={`col-md-12 col-lg-3 `}>
+  <div className="col-12 col-md-3 mb-4">
+    {/* <div className="col-12 col-sm-6 col-md-4 mb-4"> */}
     <div className="card border-0 shadow-lg">
       <div className={`card-body ${extraClasses.join(" ")}`}>
         <h5 className="card-title">{title}</h5>

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import sermonImage1 from "../../asset/army.jpg";
-import sermonImage2 from "../../asset/raisedhands.jpg"; // Import image for sermon 2
+import sermonImage2 from "../../asset/raisedhands.jpg";
 
 const SermonComponent = () => {
   const [showMoreSermon1, setShowMoreSermon1] = useState(false);
@@ -65,7 +65,7 @@ Heavenly Father, we thank you for the immeasurable love demonstrated through you
       : words.slice(0, wordsToShow).join(" ");
 
     return (
-      <div className="col-md-6 mb-4">
+      <div className="col-12 col-md-6 mb-4">
         <div className="card border-0 shadow-lg">
           <img src={sermonImage} className="card-img-top" alt="Sermon" />
           <div className="card-body">

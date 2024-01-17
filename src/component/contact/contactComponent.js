@@ -25,7 +25,7 @@ function Section({
         <div className="col-md-6 p-0">
           <img src={image} className={`${imageClass} h-100`} alt={title} />
         </div>
-        <div className="col-md-6 p-4">
+        <div className="col p-4">
           <h1>{title}</h1>
           <p>{content}</p>
         </div>
@@ -39,7 +39,7 @@ function ContactComponent() {
     <div className="container">
       <img
         src={imageBg}
-        className="img-class image-fluid opacity-75  w-full"
+        className="img-class image-fluid opacity-75 "
         alt="A background video of sky view"
       />
       <Section
