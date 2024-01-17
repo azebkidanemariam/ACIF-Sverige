@@ -75,7 +75,7 @@ const WelcomeSection = () => (
 
 const EventCard = ({ imgSrc, title, details }) => (
   <div className="col-12 col-md mb-4">
-    <div className="card d-flex flex-column border-0 shadow-lg align-items-stretch">
+    <div className="card card-border5 d-flex flex-column border-0 shadow-lg align-items-stretch">
       <img
         src={imgSrc}
         className="card-img-top card-border img-one"

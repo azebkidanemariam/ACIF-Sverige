@@ -8,7 +8,7 @@ function FooterComponent() {
     <footer className="container text-start text-muted">
       <div className="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
         <div className="row d-flex justify-content-between ">
-          <ul className="col-md-4 col-12">
+          <ul className="col-md-4 col-12 ">
             <h5>Contact Us</h5>
             <li>
               <strong>Email - </strong> apostolic_swe@yahoo.com
