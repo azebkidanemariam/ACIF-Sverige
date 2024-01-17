@@ -73,7 +73,7 @@ function ContactComponent() {
         image={wineBg}
         title="Believing In The Only God Of Salvation"
         content={
-          <p>
+          <p className="flex-grow-1">
             Believing In The Only God Of Salvation By understanding from the
             Scriptures, we believe that the God of salvation is only one.
             Supported by key Scriptures such as Deuteronomy 6:4, Isaiah
@@ -94,7 +94,7 @@ function ContactComponent() {
         image={oceanBg}
         title="Repenting From All Sins"
         content={
-          <p>
+          <p className="flex-grow-1">
             We believe that repenting from all sins is one of the essentials for
             salvation. Scriptural evidences for this are the following among
             many others. Luk. 13:1-5; “… And Jesus answering unto them, …I tell
@@ -120,7 +120,7 @@ function ContactComponent() {
         image={prayBg}
         title="Baptism In The Name Of Jesus Christ"
         content={
-          <p>
+          <p className="flex-grow-1">
             The commission by Jesus in Mark 16:15-16 emphasizes the universal
             spread of the gospel, the necessity of belief and baptism for
             salvation, and the consequences for disbelief. Scriptures in Mark
@@ -139,7 +139,7 @@ function ContactComponent() {
         image={manprayBg}
         title="Receiving The Gift Of The Holy Ghost"
         content={
-          <p>
+          <p className="flex-grow-1">
             Jesus' teaching to Nicodemus in John 3 emphasizes the necessity of
             spiritual rebirth, signifying being 'born again' through water and
             the Spirit for entrance into God's kingdom. This spiritual rebirth
