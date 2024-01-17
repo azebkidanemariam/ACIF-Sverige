@@ -50,7 +50,7 @@ Closing Prayer:
 Heavenly Father, we thank you for the immeasurable love demonstrated through your Son, Jesus Christ. May His love dwell richly in our hearts and compel us to love others as He has loved us. In His precious name, we pray. Amen.
   `;
 
-  const wordsToShow = 100; // Number of words to show initially
+  const wordsToShow = 75;
 
   const renderSermon = (
     title,
@@ -65,7 +65,7 @@ Heavenly Father, we thank you for the immeasurable love demonstrated through you
       : words.slice(0, wordsToShow).join(" ");
 
     return (
-      <div className="col-12 col-md-6 mb-4">
+      <div className="col-12 col-md mb-4">
         <div className="card border-0 shadow-lg">
           <img src={sermonImage} className="card-img-top" alt="Sermon" />
           <div className="card-body">

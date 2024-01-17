@@ -74,7 +74,7 @@ const WelcomeSection = () => (
 );
 
 const EventCard = ({ imgSrc, title, details }) => (
-  <div className="col-12 col-md-4 mb-4">
+  <div className="col-12 col-md mb-4">
     <div className="card d-flex flex-column border-0 shadow-lg align-items-stretch">
       <img
         src={imgSrc}
@@ -153,8 +153,7 @@ const EventSection = () => (
   </div>
 );
 const Card = ({ title, content, extraClasses = [] }) => (
-  <div className="col-12 col-md-3 mb-4">
-    {/* <div className="col-12 col-sm-6 col-md-4 mb-4"> */}
+  <div className="col-12 col-md mb-4">
     <div className="card border-0 shadow-lg">
       <div className={`card-body ${extraClasses.join(" ")}`}>
         <h5 className="card-title">{title}</h5>
