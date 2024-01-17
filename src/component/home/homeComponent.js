@@ -94,8 +94,8 @@ const EventCard = ({ imgSrc, title, details }) => (
 );
 
 const EventSection = () => (
-  <div className="d-flex justify-content-center mt-4 card-body container text-start text-secondary">
-    <div className="row">
+  <div className=" row d-flex justify-content-center mt-4 card-body text-start text-secondary">
+    <div className="row gap-2 p-0">
       <EventCard
         imgSrc={churchBg}
         title={"Place Of Worship"}
@@ -181,7 +181,7 @@ function HomeComponent() {
             muted
             alt="A background video of a waterfall"
             className="w-100"
-            style={{ height: "400px", opacity: "0.4" }}
+            style={{ height: "500px", opacity: "0.4" }}
           />
         </figure>
         <figcaption className="glassy-text position-absolute  top-50 translate-middle-y px-3 py-2">
