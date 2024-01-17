@@ -181,7 +181,7 @@ function HomeComponent() {
             muted
             alt="A background video of a waterfall"
             className="w-100"
-            style={{ height: "500px", opacity: "0.4" }}
+            style={{ height: "500px" }}
           />
         </figure>
         <figcaption className="glassy-text position-absolute  top-50 translate-middle-y px-3 py-2">
@@ -213,6 +213,7 @@ function HomeComponent() {
             <Card
               title="Conferences"
               content="Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content."
+              extraClasses={["card-four", "mh-100"]}
             />
 
             <Card

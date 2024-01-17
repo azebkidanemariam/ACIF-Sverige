@@ -11,26 +11,16 @@
   background-color: none;
 }
 .nav-style {
-  color: #005581;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-left: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-items: left;
+  font-family: oswald;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: #b6c4b6;
 }
 
 .navbar-text {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
-a {
-  color: #005581;
-}
-/* a:hover {
-  color: #568eaa;
-} */
 
 li {
   float: left;
@@ -44,7 +34,9 @@ li a {
   text-decoration: none;
 }
 li a {
-  color: #005581;
+  /* color: #304d30; */
+  color: #146356;
+  /*  color: #005581; */
 }
 
 .logo {
@@ -52,9 +44,17 @@ li a {
   height: auto;
 }
 .active-link {
-  color: #e78026;
+  /*   color: #e78026; */
+  color: #eef0e5;
   font-weight: bold;
 }
 .color-blue {
-  color: #005581;
+  color: #3468c0;
+  /*  color: #005581; */
+}
+nav {
+  font-family: oswald;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: #b6c4b6;
 }

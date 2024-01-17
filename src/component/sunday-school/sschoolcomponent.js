@@ -92,7 +92,7 @@ const ContactForm = () => {
           ></textarea>
         </div>
 
-        <button type="submit" className="link-button">
+        <button type="submit" className="link-button border-0">
           Send Message
         </button>
       </form>

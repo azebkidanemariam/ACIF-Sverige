@@ -11,10 +11,14 @@
   background-color: #fbded9;
 }
 .card-two {
-  background-color: #e3e1db;
+  background-color: #fbded9;
+}
+.card-four {
+  background-color: #f3deba;
 }
 .card-three {
-  background-color: #dbeede;
+  background-color: #b6c4b6;
+  /*  background-color: #dbeede; */
 }
 .card-border {
   border-radius: 15px 50px 15px 50px;
@@ -72,30 +76,14 @@ video {
   );
   height: 600;
 }
-h1 {
-  color: #005581;
-}
-h3 {
-  color: #e78026;
-}
-h5 {
-  color: #005581;
-}
-.container-flex {
-  width: 100%;
-  padding: 1vw;
-  margin: 0.01rem;
-}
 
 .glassy-text {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
-  color: #005581;
+  /*   color: #005581; */
+  color: #3468c0;
   font-family: system-ui, sans-serif;
   line-height: 1.5;
   max-width: 60%;
   padding: 1rem 2rem;
-}
-a {
-  color: #005581;
 }

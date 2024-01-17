@@ -13,10 +13,11 @@ li {
   list-style: none;
 }
 .social-media {
-  background-color: #005581;
+  background-color: #86a7fc;
+  /*  background-color: #005581; */
   margin-bottom: 1rem;
   margin-top: 2rem;
   padding: 2rem;
-  color: #ffff;
+  color: #146356;
   text-align: center;
 }

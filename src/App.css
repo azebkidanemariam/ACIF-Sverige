@@ -10,6 +10,26 @@ p {
   font-size: 16px;
   font-family: "Century Gothic";
 }
+h1 {
+  color: #3468c0;
+  /* color: #005581; */
+  font-size: 40px;
+
+  font-family: Lovelo;
+}
+h3 {
+  color: #966c3b;
+  font-family: fantasy;
+}
+h5 {
+  /* color: #005581; */
+  color: #3468c0;
+}
+.container-flex {
+  width: 100%;
+  padding: 1vw;
+  margin: 0.01rem;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -17,12 +37,12 @@ p {
   }
 }
 
-.App-link {
-  color: #61dafb;
-}
 .link-button {
-  background-color: #005581;
-  color: #fff;
+  font-family: oswald;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: #b6c4b6;
+  color: #146356;
   text-decoration: none;
   padding: 10px;
   border-radius: 2px;
@@ -39,6 +59,6 @@ p {
     transform: rotate(360deg);
   }
 }
-.container {
-  width: 100%;
+li a:hover {
+  color: #146356;
 }

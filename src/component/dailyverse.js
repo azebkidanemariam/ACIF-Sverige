@@ -38,8 +38,8 @@ const DailyVerses = () => {
 
   return (
     <div className=" mt-5">
-      <div className="card border-0 shadow-lg">
-        <div className="card-body card-three">
+      <div className="card border-0 shadow-lg justify-align-center align-items-center p-4">
+        <div className="card-body ">
           <h5 className="card-title text-center mb-4">Daily Verses</h5>
           <p className="card-text lead ">{verses[currentDay - 1]}</p>
         </div>

@@ -26,13 +26,13 @@ function Navigate() {
     window.location.pathname.toLowerCase().startsWith(path.toLowerCase());
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-lg w-100">
+    <nav className="navbar navbar-expand-lg navbar-light  shadow-lg w-100 p-2 ">
       <Link
-        className="navbar-brand w-40  d-flex justify-content-center align-items-center"
+        className="navbar-brand  d-flex justify-content-start align-items-center w-50 "
         to="/"
       >
         <img src={logo} className="logo" alt="a logo" />
-        <div className="p-4 color-blue">
+        <div className="p-4  " style={{ color: "#146356" }}>
           <h4>ACIF</h4>
           <h6>Sweden</h6>
         </div>
@@ -53,7 +53,7 @@ function Navigate() {
         className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`}
         id="navbarNav"
       >
-        <ul className="navbar-nav p-2">
+        <ul className="navbar-nav p-2 w-50">
           {navigationLinks.map((link) => (
             <li className="nav-item" key={link.name}>
               <Link
