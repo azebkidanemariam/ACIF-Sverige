@@ -17,8 +17,8 @@
   background-color: #f3deba;
 }
 .card-three {
-  background-color: #b6c4b6;
-  /*  background-color: #dbeede; */
+  /*   background-color: #b6c4b6; */
+  background-color: #dbeede;
 }
 .card-border {
   border-radius: 15px 50px 15px 50px;
@@ -80,7 +80,6 @@ video {
 .glassy-text {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
-  /*   color: #005581; */
   color: #3468c0;
   font-family: system-ui, sans-serif;
   line-height: 1.5;

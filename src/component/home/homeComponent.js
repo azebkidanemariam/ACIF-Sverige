@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import waterfallvideoBg from "../../asset/waterfallBg.mp4";
 import churchBg from "../../asset/cross.jpg";
+import PassoverBg from "../../asset/passover.jpg";
 import londonBg from "../../asset/london.jpg";
 import holyspiritBg from "../../asset/manpray.jpg";
 import welcomeBg from "../../asset/welcome.jpg";
@@ -42,7 +43,9 @@ const WelcomeSection = () => (
         />
       </div>
       <div className="col p-4">
-        <h5 className="card-title pb-2 pt-2">Welcome to ACIF, Sweden!</h5>
+        <h4 className="card-title pb-2 pt-2" style={{ color: "#146356" }}>
+          Welcome to ACIF, Sweden!
+        </h4>
         <div className="d-flex flex-column h-50">
           <p className="flex-grow-1 card-text text-muted">
             Greetings in the name of our Lord and Savior, Jesus Christ! We are
@@ -64,9 +67,9 @@ const WelcomeSection = () => (
             Christ together. May God's love and blessings be with you always! In
             Christ's love,
           </p>
-          <h5 className="card-title pb-2 pt-2">
+          <h4 className="card-title pb-2 pt-2">
             Apostolic Church international Fellowship
-          </h5>
+          </h4>
         </div>
       </div>
     </div>
@@ -86,8 +89,8 @@ const EventCard = ({ imgSrc, title, details }) => (
         className="card-body d-flex flex-fill flex-column"
         style={{ minHeight: "200px", height: "300px" }}
       >
-        <h5 className="card-title">{title}</h5>
-        <div className="card-text pt-3">{details}</div>
+        <h4 className="card-title">{title}</h4>
+        <div className="card-text pt-3 mb-4">{details}</div>
       </div>
     </div>
   </div>
@@ -109,6 +112,18 @@ const EventSection = () => (
         }
       />
       <EventCard
+        imgSrc={PassoverBg}
+        title={"Passover "}
+        details={
+          <EventDetail
+            title="Passover Confrence"
+            location="Oslo, Norway"
+            date="March 29th - March 31st, 2024"
+            time="To be announced..."
+          />
+        }
+      />
+      <EventCard
         imgSrc={londonBg}
         title={"Confrences"}
         details={
@@ -124,7 +139,7 @@ const EventSection = () => (
                 href="https://www.smartsurvey.co.uk/s/YP0EE1/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="link-button"
+                className="link-button shadow-lg"
               >
                 Book Hotel
               </a>
@@ -134,7 +149,7 @@ const EventSection = () => (
       />
       <EventCard
         imgSrc={holyspiritBg}
-        title={"Weekly Bible Study & Prayer"}
+        title={"Bible Study & Prayer"}
         details={
           <>
             <EventDetail
@@ -156,7 +171,9 @@ const Card = ({ title, content, extraClasses = [] }) => (
   <div className="col-12 col-md mb-4">
     <div className="card border-0 shadow-lg">
       <div className={`card-body ${extraClasses.join(" ")}`}>
-        <h5 className="card-title">{title}</h5>
+        <h4 className="card-title" style={{ color: "#146356" }}>
+          {title}
+        </h4>
         <p className="card-text text-start">{content}</p>
       </div>
     </div>
@@ -184,6 +201,7 @@ function HomeComponent() {
             style={{ height: "500px" }}
           />
         </figure>
+
         <figcaption className="glassy-text position-absolute  top-50 translate-middle-y px-3 py-2">
           <h1 className="fs-2 fs-sm-3 fs-md-4 fs-lg-5 fs-xl-5 mb-2">
             Apostolic Church International Fellowship
@@ -191,16 +209,14 @@ function HomeComponent() {
           <h3 className="fs-4 fs-sm-5 fs-md-5 fs-lg-5 fs-xl-5 mb-2">
             “Hear, O Israel: The LORD our God is one LORD"
           </h3>
-          <h5 className="fs-6 fs-sm-7 fs-md-7 fs-lg-7 fs-xl-7 mb-0">
-            Deuteronomy 6:4
-          </h5>
+          <p className="mb-0">Deuteronomy 6:4</p>
         </figcaption>
       </div>
 
       <div className="container ">
-        <DailyVerses />
         <WelcomeSection />
         <EventSection />
+        <DailyVerses />
 
         <div className="d-flex justify-content-center mt-4 text-start">
           <div className="row">

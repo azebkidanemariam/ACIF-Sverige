@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import sermonImage1 from "../../asset/army.jpg";
-import sermonImage2 from "../../asset/raisedhands.jpg";
+import sermonImage2 from "../../asset/fastingandprayer.jpg";
 
 const SermonComponent = () => {
   const [showMoreSermon1, setShowMoreSermon1] = useState(false);
@@ -20,44 +20,136 @@ Ultimately, believers find strength in Christ, the captain of their salvation. B
   `;
 
   const sermon2Content = `
+  
+Matthew 9:14-17
+  
+  
+  
+  John's disciples and the Pharisees are still fasting.
+  
+  
+  
+  But the Lord says to them that they will not fast while being the bridegroom.
+  
+  
+  
+  Whose responsibility are they posting?
+  
+  
+  
+  The Pharisees are well known. They strayed from God's way until the Lord rebuked them as hypocrites. They said you don't have the word. They said you don't like coming to me. Therefore, their bridegroom is not their god, but something else.
+  
+  
+  
+  What happened to John's disciples who were not the Lord's servants? While the Church is trying to prepare the bridegrooms of the Lord, will the people be another bridegroom?
 
-Good morning/afternoon/evening, dear brothers and sisters in Christ. Today, we gather with hearts full of gratitude and awe to reflect on the profound and boundless love of our Lord and Savior, Jesus Christ. In a world often marked by fleeting affections and conditional love, we turn to the One whose love is unwavering and unconditional.
 
 
-Let us begin our time together with a passage that encapsulates the essence of Jesus' love. In 1 John 4:16, we read, "So we have come to know and to believe the love that God has for us. God is love, and anyone who abides in love abides in God, and God abides in them."
+2 Corinthians 11
+
+2; For I am jealous of you with the zeal of God, for I have betrothed you to a man to present you to Christ as a pure virgin; 2nd
+
+3; But I fear that, as the serpent deceived Eve, your thoughts may be corrupted and changed from sincerity and purity for Christ.
 
 
 
-The Essence of Jesus' Love:
-Jesus' love goes beyond our human understanding. It is not based on our merits or deserving nature but flows from the very character of God. His love is sacrificial, agape love – a love that seeks the best for others, even at the cost of personal sacrifice.
+Even though he asked if you are the one who will come when there is a lot of suffering, when John was told about the baptism of Jesus, he said that he rejoiced at the voice of the bridegroom. Jesus praised John's faithfulness.
 
-Demonstrations of Love:
-Throughout the Gospels, we witness tangible demonstrations of Jesus' love. He healed the sick, fed the hungry, and embraced the outcasts. His compassion knew no bounds. The ultimate manifestation of His love was on the cross, where He willingly laid down His life for our redemption.
 
-In our Brokenness:
-Jesus' love doesn't shy away from our brokenness. Instead, it reaches into the depths of our pain and offers healing. In moments of despair, His love is our anchor, providing comfort and restoration.
 
-A Love that Transforms:
-The love of Jesus is transformative. It has the power to change lives, renew hearts, and break the chains of sin. As we abide in His love, we experience a metamorphosis, becoming more like Him each day.
+Gospel John 3
 
-Closing Scripture:
-Let us conclude our reflection with the words of Jesus in John 15:13, "Greater love has no one than this: to lay down one's life for one's friends."
+29; He is the bridegroom. The bridegroom's voice makes him happy. So my joy is fulfilled.
+John's disciples, however, did not seem to be able to see what John wanted to show them. Even in Acts 19, they are seen walking without the truth preached by John.
 
-Conclusion:
-Beloved, as we leave this place today, may the love of Jesus resonate in our hearts and overflow into the lives of those around us. Let us embrace this incomparable love and, in turn, share it with a world in desperate need. May the unfailing love of Jesus be our guiding light, now and forevermore.
 
-Closing Prayer:
-Heavenly Father, we thank you for the immeasurable love demonstrated through your Son, Jesus Christ. May His love dwell richly in our hearts and compel us to love others as He has loved us. In His precious name, we pray. Amen.
+
+John was fasting while sweeping the road before his master came.
+
+
+
+Gospel of Matthew 11
+
+18; John came neither eating nor drinking, and they said, "He has a demon."
+
+
+
+Fasting and prayer is a way of imploring the coming of the Lord.
+The Lord is showing that he is the bridegroom in feeding many people. And the bridegroom is one of the Gods called Baal of Israel. In the future, when the Lord comes back in his kingdom, he showed a little bit that he will destroy hunger. It means that the Lamb's tabernacle is among the people. There is no hunger where he is. Not because there is food, but because he himself exists. He is our satisfaction. Where he is, we eat until our stomachs are full, to show that we are satisfied with him.
+John's Revelation 7
+
+15; Therefore they are before God's throne, and night and day they worship him in the sanctuary, and he who sits on the throne rests over them.
+
+16; They shall hunger no more, and thirst no more, and the sun and all heat shall never descend upon them;
+
+17; For the Lamb in the midst of the throne shall be their shepherd, and shall lead them to the fountain of living water; God will wipe away all tears from their eyes.
+(Isaiah 54:5; Hosea 2:19,20; Rev. 21:9; 19:7)
+They fast when the bridegroom is taken away.
+
+
+
+As soon as Jesus ascended, the apostles prayed for ten days. It does not seem to be questionable that it is a prayer to which fasting is added. Because it is said that they fast when the bridegroom is taken away. And on the tenth day, the Lord rested in their hearts with His Spirit.
+
+
+
+Acts 1
+
+14; All these, together with the women and Mary, the mother of Jesus, and his brothers, were diligent in prayer.
+
+
+
+The next part shows us the Holy Spirit speaking to the saints in fasting prayer.
+Acts 13
+
+2; And when these were worshiping the Lord and fasting, the Holy Spirit said: Separate Barnabas and Saul for the work I have called them.
+
+
+
+Fasting and prayer is a devotion to bring the Lord's presence closer to us. Fasting prayer is a way of longing to find the Lord who was taken from us again.
+
+
+
+Those who fasted while the Lord was among them did not understand His coming. That is why they are still fasting.
+Gospel of John 1
+
+9; The true light that shines for all men was coming into the world.
+
+10; He was in the world, and the world was made by him, and the world did not know him.
+
+
+
+If they knew, they would have said:
+
+
+
+Gospel of John 4
+
+10; Jesus answered: If you had known who it was that said to you, "Give me a drink of water," you would have asked him, and he would have given you the water of life.In John 6, give us this bread every day, the fault of the people is that they did not see the appearance of the Messiah. The bread that they ate was not made so that they could see the presence of Christ. But they could not see him. But the apostles saw him and said to them, "You have the word of life, where shall we go from you?" They did not separate from the Lord because they knew that it was him.Fasting in the absence of the Lord shows that we are hungry for Him. Fasting when he is present shows that our hunger is not the Lord but something else. Just as John 6 said, give us this bread always. If the Pharisees were hungry, they would have rejoiced with him when he came. All those who said they don't want to come to me were hungry for something else. Being sad after the Lord is found for us shows that our hunger is for something other than the Lord.The Pharisees were hungry because of their religious practice. But true fasting is a way of starving the Lord and crying out that you are my longing.
+Psalm 42
+
+1; As a deer yearns for a spring of water.
+
+Lord, so longs my soul for you.
+
+2; My soul thirsts for the living God.
+
+When will I arrive? When will I see God's face?
+
+3; Always: Where is your God? They said to me
+
+My tears became my food day and night.
   `;
 
-  const wordsToShow = 75;
+  const wordsToShowSermon1 = 200;
+  const wordsToShowSermon2 = 100;
 
   const renderSermon = (
     title,
     sermonContent,
     showMore,
     setShowMore,
-    sermonImage
+    sermonImage,
+    wordsToShow
   ) => {
     const words = sermonContent.split(" ");
     const visibleContent = showMore
@@ -65,15 +157,15 @@ Heavenly Father, we thank you for the immeasurable love demonstrated through you
       : words.slice(0, wordsToShow).join(" ");
 
     return (
-      <div className="col-12 col-md mb-4">
-        <div className="card border-0 shadow-lg">
+      <div className="col-12 col-md mb-4 container">
+        <div className="card shadow-lg">
           <img src={sermonImage} className="card-img-top" alt="Sermon" />
           <div className="card-body">
             <h4 className="card-title">{title}</h4>
             <p className="card-text">{visibleContent}</p>
             {words.length > wordsToShow && (
               <button
-                className="link-button border-0"
+                className="link-button shadow-lg"
                 onClick={() => setShowMore(!showMore)}
               >
                 {showMore ? "Show Less" : "Show More"}
@@ -93,14 +185,16 @@ Heavenly Father, we thank you for the immeasurable love demonstrated through you
           sermon1Content,
           showMoreSermon1,
           setShowMoreSermon1,
-          sermonImage1
+          sermonImage1,
+          wordsToShowSermon1
         )}
         {renderSermon(
-          "Embraced by Unconditional Love",
+          "Why fasting?",
           sermon2Content,
           showMoreSermon2,
           setShowMoreSermon2,
-          sermonImage2
+          sermonImage2,
+          wordsToShowSermon2
         )}
       </div>
     </div>

@@ -5,11 +5,11 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 function FooterComponent() {
   return (
-    <footer className="container text-start text-muted font-monospace">
-      <div className="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
+    <footer className="text-start font-monospace ">
+      <div className="shadow-lg p-3  mt-4  rounded ">
         <div className="row d-flex justify-content-between ">
           <ul className="col-md-4 col-12 ">
-            <h5>Contact Us</h5>
+            <h4>Contact Us</h4>
             <li>
               <strong>Email - </strong> apostolic_swe@yahoo.com
             </li>
@@ -25,7 +25,7 @@ function FooterComponent() {
           </ul>
 
           <ul className="col-md-2 col-6">
-            <h5>Services</h5>
+            <h4>Services</h4>
             <li>Sunday Service</li>
             <li>Bible Studying</li>
             <li>Sunday School</li>

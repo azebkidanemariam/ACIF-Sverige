@@ -8,11 +8,11 @@ html {
 }
 p {
   font-size: 16px;
-  font-family: "Century Gothic";
+  font-family: Arial;
 }
 h1 {
-  color: #3468c0;
-  /* color: #005581; */
+  /* color: #3468c0; */
+  color: #005581;
   font-size: 40px;
 
   font-family: Lovelo;
@@ -21,14 +21,17 @@ h3 {
   color: #966c3b;
   font-family: fantasy;
 }
-h5 {
-  /* color: #005581; */
-  color: #3468c0;
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #966c3b;
 }
 .container-flex {
   width: 100%;
   padding: 1vw;
   margin: 0.01rem;
+}
+.bg-beige {
+  background-color: #f76e50;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -38,17 +41,17 @@ h5 {
 }
 
 .link-button {
-  font-family: oswald;
-  font-weight: bolder;
-  text-transform: uppercase;
-  background-color: #b6c4b6;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  background-color: #d1dbf5;
   color: #146356;
   text-decoration: none;
   padding: 10px;
-  border-radius: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 
 @keyframes App-logo-spin {
@@ -58,7 +61,4 @@ h5 {
   to {
     transform: rotate(360deg);
   }
-}
-li a:hover {
-  color: #146356;
 }

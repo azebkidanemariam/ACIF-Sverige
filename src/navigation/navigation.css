@@ -1,7 +1,3 @@
-.icon-s {
-  size: 300px;
-  color: blueviolet;
-}
 .box-shadow {
   background-color: aquamarine;
   color: black;
@@ -9,12 +5,6 @@
 }
 .shadow-color {
   background-color: none;
-}
-.nav-style {
-  font-family: oswald;
-  font-weight: bolder;
-  text-transform: uppercase;
-  background-color: #b6c4b6;
 }
 
 .navbar-text {
@@ -32,29 +22,32 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 16px;
 }
 li a {
-  /* color: #304d30; */
-  color: #146356;
-  /*  color: #005581; */
+  font-weight: 600;
+  color: #966c3b;
+  /*   color: #146356; */
 }
 
 .logo {
-  width: 100px;
-  height: auto;
+  width: 75px;
+  height: 75px;
 }
+
 .active-link {
-  /*   color: #e78026; */
-  color: #eef0e5;
-  font-weight: bold;
+  color: #146356;
 }
 .color-blue {
-  color: #3468c0;
-  /*  color: #005581; */
+  color: #5c98ff;
 }
 nav {
-  font-family: oswald;
-  font-weight: bolder;
-  text-transform: uppercase;
-  background-color: #b6c4b6;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #86a7fd;
+}
+li a:hover {
+  font-weight: 600;
+  color: #146356;
 }
