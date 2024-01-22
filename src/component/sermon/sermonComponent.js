@@ -118,7 +118,7 @@ Gospel of John 1
 
 
 
-If they knew, they would have said:
+If they knew, they would have said: 
 
 
 

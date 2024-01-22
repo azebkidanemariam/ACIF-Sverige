@@ -25,28 +25,31 @@ li a {
   font-size: 16px;
 }
 li a {
-  font-weight: 600;
-  color: #966c3b;
-}
-
-.logo {
-  width: 75px;
-  height: 75px;
+  font-weight: 500;
+  color: #bdede5;
+  font-size: 18px;
 }
 
 .active-link {
-  color: #146356;
+  color: #fff;
 }
 .color-blue {
   color: #5c98ff;
 }
 nav {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
+
   font-weight: 400;
-  color: #86a7fd;
+  background-color: #146356;
 }
 li a:hover {
   font-weight: 600;
-  color: #146356;
+  color: #fff;
+}
+.logo {
+  width: 75px;
+  height: 75px;
+  font-weight: 500;
+  color: #bdede5;
+  font-size: 18px;
 }

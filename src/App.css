@@ -7,14 +7,12 @@ html {
   box-sizing: inherit;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-family: Arial;
 }
 h1 {
-  /* color: #3468c0; */
   color: #005581;
   font-size: 40px;
-
   font-family: Lovelo;
 }
 h3 {
@@ -25,11 +23,7 @@ h4 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #966c3b;
 }
-/* .container-flex {
-  width: 100%;
-  padding: 1vw;
-  margin: 0.01rem;
-} */
+
 .bg-beige {
   background-color: #f76e50;
 }
@@ -44,8 +38,8 @@ h4 {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
   font-weight: 900;
-  background-color: #d1dbf5;
-  color: #146356;
+  color: #d1dbf5;
+  background-color: #146356;
   text-decoration: none;
   padding: 10px;
   display: flex;

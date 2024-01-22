@@ -1,24 +1,23 @@
-.footer {
+footer {
   position: relative;
   left: 0;
   bottom: 0;
-  height: 200px;
   width: 100%;
   background: local;
   color: #000;
   text-align: center;
   justify-content: center;
+  background-color: #146356;
 }
 li {
   list-style: none;
 }
 .social-media {
   background-color: #d1dbf5;
-  /* background-color: #86a7fc; */
-  /*  background-color: #005581; */
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  padding: 2rem;
+  /*   margin-bottom: 1rem;
+  margin-top: 2rem; */
+  /*  padding: 2rem; */
+  padding: 1rem;
   color: #146356;
   text-align: center;
 }

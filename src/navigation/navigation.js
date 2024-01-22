@@ -31,9 +31,9 @@ function Navigate() {
         className="navbar-brand  w-50 d-flex justify-content-start align-items-center  "
         to="/"
       >
-        <img src={logo} className="logo" alt="a logo" />
-        <div className="px-4" style={{ color: "#146356" }}>
-          <h4>ACIF -Sweden</h4>
+        <img src={logo} alt="a logo" className="logo" />
+        <div className="px-4">
+          <h4 style={{ color: "#fff" }}>ACIF -Sweden</h4>
         </div>
       </Link>
       <button

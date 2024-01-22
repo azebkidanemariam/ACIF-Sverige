@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact-module.css";
 
-import imageBg from "../../asset/imageBg.jpg";
+import imageBg from "../../asset/bibleBg.jpg";
 import wineBg from "../../asset/wine.jpg";
 import oceanBg from "../../asset/ocean.jpg";
 import stoneBg from "../../asset/stone.jpg";
