@@ -97,7 +97,7 @@ const EventCard = ({ imgSrc, title, details }) => (
 );
 
 const EventSection = () => (
-  <div className=" row d-flex justify-content-center mt-4 card-body text-start text-secondary">
+  <div className=" row d-flex justify-content-center mt-4 card-body text-start text-secondary container-fluid ">
     <div className="row gap-2 p-0">
       <EventCard
         imgSrc={churchBg}
@@ -181,7 +181,7 @@ const Card = ({ title, content, extraClasses = [] }) => (
 );
 function HomeComponent() {
   return (
-    <div className="pt-6">
+    <div className="container-fluid m-0 p-0">
       <div className="pt-6 position-relative d-flex flex-column">
         <figure
           className="position-relative overflow-hidden"

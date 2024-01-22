@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 function FooterComponent() {
   return (
-    <footer className="text-start font-monospace ">
+    <footer className="text-start font-monospace container-fluid p-0">
       <div className="shadow-lg p-3  mt-4  rounded ">
         <div className="row d-flex justify-content-between ">
           <ul className="col-md-4 col-12 ">

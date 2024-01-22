@@ -36,7 +36,7 @@ function Section({
 
 function ContactComponent() {
   return (
-    <>
+    <div className="container-fluid p-0">
       <img
         src={imageBg}
         className="img-class "
@@ -155,7 +155,7 @@ function ContactComponent() {
           }
         />
       </div>
-    </>
+    </div>
   );
 }
 
