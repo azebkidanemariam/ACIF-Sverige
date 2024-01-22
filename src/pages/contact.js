@@ -4,7 +4,7 @@ import Navigate from "../navigation/navigation";
 import FooterComponent from "../component/footer/footer";
 function WeBelieveInPage() {
   return (
-    <div>
+    <div className="container-fluid p-0">
       <Navigate />
       <ContactComponent />
       <FooterComponent />
