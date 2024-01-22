@@ -97,8 +97,8 @@ const EventCard = ({ imgSrc, title, details }) => (
 );
 
 const EventSection = () => (
-  <div className=" row d-flex justify-content-center mt-4 card-body text-start text-secondary container-fluid ">
-    <div className=" gap-2 p-0">
+  <div className=" row d-flex justify-content-center mt-4 card-body text-start text-secondary ">
+    <div className="row gap-2 p-0">
       <EventCard
         imgSrc={churchBg}
         title={"Place Of Worship"}

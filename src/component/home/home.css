@@ -17,7 +17,6 @@
   background-color: #f3deba;
 }
 .card-three {
-  /*   background-color: #b6c4b6; */
   background-color: #dbeede;
 }
 .card-border {
@@ -32,7 +31,6 @@
   ) !important;
 }
 .container-video::after {
-  width: 1340px;
   content: "";
   display: block;
   position: absolute;
