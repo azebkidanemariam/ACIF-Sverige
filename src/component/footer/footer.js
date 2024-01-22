@@ -6,13 +6,13 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 function FooterComponent() {
   return (
     <footer
-      className="text-start font-monospace container-fluid p-0 "
+      className="text-start  container-fluid p-0 "
       style={{ color: "#fff" }}
     >
       <div className="shadow-lg p-3  mt-4  rounded ">
         <div className="row d-flex justify-content-between ">
           <ul className="col-md-4 col-12 ">
-            <h4 style={{ color: "#fff" }}>Contact Us</h4>
+            <h4>Contact Us</h4>
             <li>
               <strong>Email - </strong> apostolic_swe@yahoo.com
             </li>
@@ -28,7 +28,7 @@ function FooterComponent() {
           </ul>
 
           <ul className="col-md-2 col-6">
-            <h4 style={{ color: "#fff" }}>Services</h4>
+            <h4>Services</h4>
             <li>Sunday Service</li>
             <li>Bible Studying</li>
             <li>Sunday School</li>

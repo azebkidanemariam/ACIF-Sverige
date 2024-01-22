@@ -77,7 +77,7 @@ const WelcomeSection = () => (
 );
 
 const EventCard = ({ imgSrc, title, details }) => (
-  <div className="col-12 col-md mb-4">
+  <div className="col-12 col-md mb-4 container-fluid">
     <div className="card card-border5 d-flex flex-column border-0 shadow-lg align-items-stretch">
       <img
         src={imgSrc}
@@ -87,7 +87,7 @@ const EventCard = ({ imgSrc, title, details }) => (
 
       <div
         className="card-body d-flex flex-fill flex-column"
-        style={{ minHeight: "200px", height: "300px" }}
+        style={{ minHeight: "400px" }}
       >
         <h4 className="card-title">{title}</h4>
         <div className="card-text pt-3 mb-4">{details}</div>
