@@ -3,7 +3,7 @@ import ContactForm from "../component/sunday-school/sschoolcomponent";
 import Navigate from "../navigation/navigation";
 function ContactPage() {
   return (
-    <div className="container-fluid p-0">
+    <div>
       <Navigate />
       <ContactForm />
       <FooterComponent />

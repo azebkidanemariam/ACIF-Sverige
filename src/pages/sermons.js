@@ -5,7 +5,7 @@ import FooterComponent from "../component/footer/footer";
 import SermonComponent from "../component/sermon/sermonComponent";
 function SermonsPage() {
   return (
-    <div className="container-fluid p-0">
+    <div>
       <Navigate />
       <SermonComponent />
       <FooterComponent />

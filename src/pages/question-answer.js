@@ -4,7 +4,7 @@ import FooterComponent from "../component/footer/footer";
 
 function QuestionAnswerPage() {
   return (
-    <div className="container-fluid p-0">
+    <div>
       <Navigate />
       <AccordionItem />
       <FooterComponent />

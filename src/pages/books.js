@@ -5,7 +5,7 @@ import FooterComponent from "../component/footer/footer";
 import BooksComponent from "../component/books/booksComponent";
 function BookPage() {
   return (
-    <div className="container-fluid p-0">
+    <div>
       <Navigate />
       <BooksComponent />
       <FooterComponent />
