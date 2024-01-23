@@ -3,10 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import sermonImage1 from "../../asset/army.jpg";
 import sermonImage2 from "../../asset/fastingandprayer.jpg";
+import sermonImage3 from "../../asset/harvest2.jpg";
 
 const SermonComponent = () => {
   const [showMoreSermon1, setShowMoreSermon1] = useState(false);
   const [showMoreSermon2, setShowMoreSermon2] = useState(false);
+  const [showMoreSermon3, setShowMoreSermon3] = useState(false);
   const sermon1Content = `
  In the battleground of life, amidst the intense spiritual warfare, the adversary constantly seeks to deceive, exploiting vulnerabilities in both strength and weakness. The Apostle Paul warns us about the cunning schemes of the devil, urging believers to stand firm against the wiles of the adversary (Ephesians 6:11; 2 Corinthians 2:11). Satan, known as the deceiver, masquerades as an angel of light, making discernment crucial (2 Corinthians 11:14). He subtly whispers lies to confuse and distract, aiming to undermine the work of God.
 
@@ -139,9 +141,21 @@ When will I arrive? When will I see God's face?
 
 My tears became my food day and night.
   `;
+  const sermon3Content = `In the grand tapestry of God's plan, a divine moment beckons us to rise and join hands as co-laborers. The time for the bountiful harvest has arrived, and the Almighty, the unstoppable force, is at work. When He moves, no opposition can thwart His purpose (Jehemiah 4:35, Zechariah 2:13).
 
-  const wordsToShowSermon1 = 200;
-  const wordsToShowSermon2 = 100;
+  Acknowledging God's rise to action in opening the doors of the gospel to the church doesn't shield us from opposition. Yet, our focus remains unwavering, fixed on the One who has risen to work (1 Corinthians 16:9, Revelation 3:7-8). The Bible unfolds narratives where, in David's era, he aspired to build God's house, but God deferred the task to his future offspring. Conversely, during Haggai's time, though the need to build God's house was apparent, people were preoccupied with personal affairs until God revived their spirits (1 Samuel 14:6-15, Haggai 1:1-15).
+  
+  In the season of God's divine labor:
+  
+  We are entrusted with giving what we have received, especially the precious gift of salvation. Our calling is to share the secrets of the kingdom of heaven (Matthew 13:11, 1 Corinthians 4:7, Luke 12:48).
+  God's work requires willing ministers and devoted people. History shows that when Nehemiah rose to rebuild Jerusalem's walls, the people rallied with him (Judges 5:1-2, Nehemiah 2:17-18).
+  As we align ourselves with the work of the gospel, akin to Elijah recognizing the small cloud signaling rain, we must believe in God's impending work. Our involvement in the gospel becomes a gateway to sharing in its abundant blessings (1 Corinthians 9:23).
+  
+  May our collective efforts be a testament to our participation in the divine blessings that unfold when God initiates His work.`;
+
+  const wordsToShowSermon1 = 60;
+  const wordsToShowSermon2 = 95;
+  const wordsToShowSermon3 = 69;
 
   const renderSermon = (
     title,
@@ -159,7 +173,12 @@ My tears became my food day and night.
     return (
       <div className="col-12 col-md mb-4 container">
         <div className="card shadow-lg">
-          <img src={sermonImage} className="card-img-top" alt="Sermon" />
+          <img
+            src={sermonImage}
+            className="card-img-top"
+            alt="Sermon"
+            style={{ height: "400px" }}
+          />
           <div className="card-body">
             <h4 className="card-title">{title}</h4>
             <p className="card-text">{visibleContent}</p>
@@ -195,6 +214,14 @@ My tears became my food day and night.
           setShowMoreSermon2,
           sermonImage2,
           wordsToShowSermon2
+        )}
+        {renderSermon(
+          "God's Harvest Season",
+          sermon3Content,
+          showMoreSermon3,
+          setShowMoreSermon3,
+          sermonImage3,
+          wordsToShowSermon3
         )}
       </div>
     </div>
