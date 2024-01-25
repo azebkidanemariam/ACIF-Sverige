@@ -84,3 +84,10 @@ video {
   max-width: 60%;
   padding: 1rem 2rem;
 }
+.card-container {
+  display: flex;
+}
+
+.cards {
+  flex: 1;
+}

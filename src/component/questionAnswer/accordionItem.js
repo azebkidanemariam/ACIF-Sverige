@@ -4,8 +4,8 @@ import "./accordion.css";
 
 export const AccordionItem = () => {
   return (
-    <div className="demo shadow-lg container mt-4 text-start">
-      <div className="container">
+    <div className="demo shadow-lg container text-start">
+      <div className="container p-10 ">
         <div className="panel-group">
           {accordionData.map(({ title, content, verse }, index) => (
             <Accordion

@@ -18,21 +18,19 @@ li {
 
 li a {
   display: block;
+  /*  color: #929590; */
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 16px;
+  font-weight: bold;
 }
-/* li a {
-  font-weight: 500;
-  color: #bdede5;
-  font-size: 18px;
-} */
 
 .active-link {
   font-weight: 600;
-  color: #fff;
+  color: #f4dda4;
+  /*  color: #eb8c20; */
 }
 .color-blue {
   color: #5c98ff;
@@ -45,7 +43,7 @@ nav {
 }
 li a:hover {
   font-weight: 600;
-  color: #fff;
+  color: #163307;
 }
 .logo {
   width: 75px;

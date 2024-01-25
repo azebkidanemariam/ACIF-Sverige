@@ -7,7 +7,7 @@ function BooksComponent() {
     <div className="container">
       <div className="d-flex justify-content-center mt-4 card-body">
         <div className="row ">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 mt-2">
             <div className="card card-border">
               <img src={Songs} className="card-img-top  img-one" alt="..." />
               <a
@@ -15,12 +15,13 @@ function BooksComponent() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" link-button"
+                style={{ backgroundColor: "#d1dbf5", color: "#146356" }}
               >
                 All Amharic Songs
               </a>
             </div>
           </div>
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 mt-2">
             <div className="card card-border">
               <img src={Bible} className="card-img-top  img-one" alt="..." />
               <a
@@ -28,8 +29,9 @@ function BooksComponent() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" link-button"
+                style={{ backgroundColor: "#d1dbf5", color: "#146356" }}
               >
-                Matthew 28:19 By Elias Shibabaw - Part Two
+                Matthew 28:19 Explained- Part Two
               </a>
             </div>
           </div>

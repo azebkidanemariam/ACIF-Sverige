@@ -46,10 +46,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container mt-4">
-      <h2>Get in Touch!</h2>
+    <div className="container mt-4 w-100 h-100">
+      <h1>Get in Touch!</h1>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="h-100">
         <div className="mb-3">
           <label htmlFor="name" className="form-label">
             Your name
