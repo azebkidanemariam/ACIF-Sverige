@@ -3,7 +3,7 @@ import "./home.css";
 import waterfallvideoBg from "../../asset/waterfallBg.mp4";
 import churchBg from "../../asset/cross.jpg";
 import PassoverBg from "../../asset/passover.jpg";
-import londonBg from "../../asset/london.jpg";
+import londonBg from "../../asset/londonn.jpg";
 import holyspiritBg from "../../asset/manpray.jpg";
 import welcomeBg from "../../asset/welcome.jpg";
 import "bootstrap/dist/css/bootstrap.css";
@@ -78,7 +78,7 @@ const WelcomeSection = () => (
 
 const EventCard = ({ imgSrc, title, details }) => (
   <div className="col-12 col-md mb-4 card-container">
-    <div className="card card-border5 d-flex flex-column border-0 shadow-lg align-items-stretch">
+    <div className="card card-border d-flex flex-column border-0 shadow-lg align-items-stretch">
       <img
         src={imgSrc}
         className="card-img-top card-border img-one"
@@ -110,7 +110,7 @@ const EventSection = () => (
       />
       <EventCard
         imgSrc={PassoverBg}
-        title={"Passover "}
+        title={"Passover"}
         details={
           <EventDetail
             title="Passover Confrence"
@@ -120,6 +120,7 @@ const EventSection = () => (
           />
         }
       />
+
       <EventCard
         imgSrc={londonBg}
         title={"Confrences"}
@@ -131,19 +132,18 @@ const EventSection = () => (
               date="August 2nd - August 4th, 2024"
               time="To be announced..."
             />
-            <div className="text-center">
-              <a
-                href="https://www.smartsurvey.co.uk/s/YP0EE1/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link-button shadow-lg"
-              >
-                Book Hotel
-              </a>
-            </div>
+            <a
+              href="https://www.smartsurvey.co.uk/s/YP0EE1/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-button  "
+            >
+              Book Hotel
+            </a>
           </>
         }
       />
+
       <EventCard
         imgSrc={holyspiritBg}
         title={"Bible Study & Prayer"}
@@ -200,7 +200,7 @@ function HomeComponent() {
             muted
             alt="A background video of a waterfall"
             className="w-100"
-            style={{ height: "500px" }}
+            style={{ height: "600px" }}
           />
         </figure>
 
@@ -229,7 +229,7 @@ function HomeComponent() {
               Throughout the Bible, faith is exemplified in the lives of individuals like Abraham, who, in response to God's call, 'believed the Lord, and he credited it to him as righteousness' (Genesis 15:6). Faith is not passive; it prompts obedient action and perseverance in the face of challenges. The New Testament emphasizes salvation through faith in Jesus Christ, emphasizing that believers are justified by faith apart from works (Romans 3:28, Galatians 2:16).
               
               In essence, biblical faith involves a confident and active trust in God's Word and a reliance on His character, leading to a transformed life marked by obedience, perseverance, and a deepening relationship with the Almighty"
-              extraClasses={["card-one", "mh-100", "cards"]}
+              extraClasses={["card-one", "mh-100"]}
             />
 
             <Card

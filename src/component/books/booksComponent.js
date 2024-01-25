@@ -4,32 +4,41 @@ import Bible from "../../asset/bibleBg.jpg";
 
 function BooksComponent() {
   return (
-    <div className="container">
+    <div className="container h-100">
       <div className="d-flex justify-content-center mt-4 card-body">
         <div className="row ">
           <div className="col-12 col-md-6 mt-2">
-            <div className="card card-border">
+            <div className="card card-border border-0">
               <img src={Songs} className="card-img-top  img-one" alt="..." />
               <a
                 href="/books/AmharicSongs.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" link-button"
-                style={{ backgroundColor: "#d1dbf5", color: "#146356" }}
+                className=" link-button shadow-lg fs-6 "
+                style={{
+                  backgroundColor: "#fff",
+                  color: "#146356",
+                  fontWeight: "bolder",
+                }}
               >
                 All Amharic Songs
               </a>
             </div>
           </div>
           <div className="col-12 col-md-6 mt-2">
-            <div className="card card-border">
+            <div className="card card-border border-0">
               <img src={Bible} className="card-img-top  img-one" alt="..." />
               <a
                 href="/books/ExplanationtoMattew28_19.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" link-button"
-                style={{ backgroundColor: "#d1dbf5", color: "#146356" }}
+                className=" link-button shadow-lg fs-6"
+                style={{
+                  backgroundColor: "#fff",
+                  color: "#146356",
+
+                  fontWeight: "600",
+                }}
               >
                 Matthew 28:19 Explained- Part Two
               </a>

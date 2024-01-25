@@ -3,9 +3,9 @@ import "./contact-module.css";
 
 import imageBg from "../../asset/bibleBg.jpg";
 import wineBg from "../../asset/wine.jpg";
-import oceanBg from "../../asset/ocean.jpg";
+import oceanBg from "../../asset/repent.jpg";
 import stoneBg from "../../asset/stone.jpg";
-import prayBg from "../../asset/pray.jpg";
+import lakeBg from "../../asset/ocean.jpg";
 import manprayBg from "../../asset/manpray.jpg";
 
 function Section({
@@ -119,7 +119,7 @@ function ContactComponent() {
         />
 
         <Section
-          image={prayBg}
+          image={lakeBg}
           title="Baptism In The Name Of Jesus Christ"
           content={
             <p className="flex-grow-1">
