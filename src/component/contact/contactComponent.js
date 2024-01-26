@@ -79,14 +79,14 @@ function ContactComponent() {
               Believing In The Only God Of Salvation By understanding from the
               Scriptures, we believe that the God of salvation is only one.
               Supported by key Scriptures such as Deuteronomy 6:4, Isaiah
-              43:10-11, 45:21-22, and Hosea 13:4, affirming the oneness of God
-              and His exclusive role as the Savior. Our faith centers on the
-              Lord Jesus Christ as the manifestation of this singular God in
-              human form for the redemption of humanity, validated by passages
-              like 1 Timothy 3:16 and Matthew 1:18-23. His sacrificial death,
-              burial, and resurrection, outlined in 1 Corinthians 15:3-4, form
-              the essence of our belief, highlighting the necessity of
-              acknowledging this unique God for salvation.
+              43:10-11, 45:21-22, and Hosea 13:4, affirming the one of God and
+              His exclusive role as the Savior. Our faith centers on the Lord
+              Jesus Christ as the manifestation of this singular God in form of
+              man for the redemption of humanity, validated by passages like 1
+              Timothy 3:16 and Matthew 1:18-23. His sacrificial death, burial,
+              and resurrection, outlined in 1 Corinthians 15:3-4, form the
+              essence of our belief, highlighting the necessity of acknowledging
+              this unique God for salvation.
             </p>
           }
           imageOnLeft={false}
@@ -128,8 +128,10 @@ function ContactComponent() {
               salvation, and the consequences for disbelief. Scriptures in Mark
               16:16 and Acts 2:38 reinforce the importance of faith and baptism,
               highlighting their inseparable connection for salvation.
-              Additionally, passages in Acts 4:12 and 1 Peter 3:20-21 underscore
-              the significance of baptism as a means of spiritual rebirth,
+              Additionally, Acts 4:12 emphesizes the significance of the name of
+              jesus, while 1 Peter 3.20-21 underscores the significances of
+              baptism as a means of and 1 Peter 3:20-21 underscore the
+              significance of baptism as a means of spiritual rebirth,
               circumcision of the heart, and putting on Christ, as outlined in
               John 3:3-6, Colossians 2:11-12, and Galatians 3:27.
             </p>

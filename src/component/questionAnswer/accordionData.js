@@ -1,10 +1,35 @@
 export const accordionData = [
   {
     title: "Who is Jesus?",
-    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-      laborum cupiditate possimus labore, hic temporibus velit dicta earum
-      suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-      voluptatem.`,
+    content: `Jesus inquired of His disciples about the public's perception of His identity. Some believed He was Elijah, others thought He was Jeremiah, and some even suggested He was John the Baptist. Following this, Jesus asked His disciples directly who they believed He was. Peter, through divine revelation, proclaimed that Jesus is the Christ, the Son of God.
+
+    Matthew 16:16 (KJV) And Simon Peter answered and said, Thou art the Christ, the Son of the living God.
+    
+    If we go back to the moment when the Angel Gabriel spoke to Mary, the words conveyed that the one to be born from her would be the Son of God.
+    
+    Luke 1:35 (KJV) And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God.
+    
+    Joseph, through a dream by the Angel, was also informed that the child, conceived by the Holy Ghost, would be named Jesus, fulfilling the prophecy given by Isaiah 700 years prior.
+    
+    Matthew 1:20-23 (KJV) 20 But while he thought on these things, behold, the angel of the Lord appeared unto him in a dream, saying, Joseph, thou son of David, fear not to take unto thee Mary thy wife: for that which is conceived in her is of the Holy Ghost. 21 And she shall bring forth a son, and thou shalt call his name JESUS: for he shall save his people from their sins. 22 Now all this was done, that it might be fulfilled which was spoken of the Lord by the prophet, saying, 23 Behold, a virgin shall be with child, and shall bring forth a son, and they shall call his name Emmanuel, which being interpreted is, God with us.
+    
+    Isaiah not only reveals that the child to be born is a son but also describes Him as the mighty God and Father of eternity. This significance is reflected in the name "Emanuel," signifying "God with us."
+    
+    Isaiah 9:6 (KJV) For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace.
+    
+    The confirmation of this is evident in various instances when Jesus walked on earth. For instance, Philip, desiring to see the Father, inquired about Him. In response, Jesus, the one being asked, reaffirmed the truth foretold by Isaiah in chapter 9, verse 6. Rather than guiding Philip to another figure, the Lord emphasized that He, Himself is not only the Son but also the Father.
+    
+    John 14:8-9 (KJV) 8 Philip saith unto him, Lord, shew us the Father, and it sufficeth us. 9 Jesus saith unto him, Have I been so long time with you, and yet hast thou not known me, Philip? he that hath seen me hath seen the Father; and how sayest thou [then], Shew us the Father?
+    
+    Another notable instance occurred when Jesus was requested to show His pierced side and nailed hands. It was through this revelation that Thomas ultimately reached the conclusion that Jesus is both Lord and God.
+    
+    John 20:28 (KJV) And Thomas answered and said unto him, My Lord and my God.
+    
+    By linking these truths, we are brought back to an Old Testament truth of One God who is the Father.
+    
+    Malachi 2:10 (KJV) Have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?
+    
+    Indeed, Jesus is the Son of God, the Christ, and simultaneously, He is the One God Himself, who is the Father.`,
   },
   {
     title: "What is the true meaning of repentance?",
