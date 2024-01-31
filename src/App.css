@@ -13,8 +13,7 @@ body {
   padding: 0;
   position: relative;
   max-width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  min-height: 100vh;
 }
 *,
 *:before,
@@ -23,13 +22,13 @@ body {
 }
 p {
   font-size: 20px;
-  font-family: "Jockey one";
+
   line-height: 1.7;
 }
 h1 {
   color: #005581;
   font-size: 40px;
-  font-family: "NT Fabulous";
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bolder;
 }
 h3 {
@@ -52,7 +51,6 @@ h4 {
 }
 
 .link-button {
-  font-family: "NT Fabulous";
   font-size: 1.2rem;
   font-weight: 900;
   color: #d1dbf5;

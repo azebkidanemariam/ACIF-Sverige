@@ -27,7 +27,7 @@ function Section({
         </div>
         <div className="col p-4">
           <h1>{title}</h1>
-          <p>{content}</p>
+          <div>{content}</div>
         </div>
       </div>
     </div>
@@ -129,11 +129,10 @@ function ContactComponent() {
               16:16 and Acts 2:38 reinforce the importance of faith and baptism,
               highlighting their inseparable connection for salvation.
               Additionally, Acts 4:12 emphesizes the significance of the name of
-              jesus, while 1 Peter 3.20-21 underscores the significances of
-              baptism as a means of and 1 Peter 3:20-21 underscore the
-              significance of baptism as a means of spiritual rebirth,
-              circumcision of the heart, and putting on Christ, as outlined in
-              John 3:3-6, Colossians 2:11-12, and Galatians 3:27.
+              jesus, while 1 Peter 3:20-21 underscore the significance of
+              baptism as a means of spiritual rebirth, circumcision of the
+              heart, and putting on Christ, as outlined in John 3:3-6,
+              Colossians 2:11-12, and Galatians 3:27.
             </p>
           }
           imageOnLeft={false}
