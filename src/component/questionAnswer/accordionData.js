@@ -1,6 +1,6 @@
 export const accordionData = [
   {
-    title: "Who is Jesus?",
+    title: "Who is Jesus? Is Jesus God or Son?",
     content: `Jesus inquired of His disciples about the public's perception of His identity. Some believed He was Elijah, others thought He was Jeremiah, and some even suggested He was John the Baptist. Following this, Jesus asked His disciples directly who they believed He was. Peter, through divine revelation, proclaimed that Jesus is the Christ, the Son of God.
 
     Matthew 16:16 (KJV) And Simon Peter answered and said, Thou art the Christ, the Son of the living God.
@@ -59,10 +59,8 @@ export const accordionData = [
       Repudiandae, mollitia id reprehenderit a ab odit!`,
   },
   {
-    title: "Is Jesus God or Son?",
-    content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-      quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-      dolor ut sequi minus iste? Quas?`,
+    title: "Is Jesus God or Man?",
+    content: `Jesus is both God and man. However, He is not the first man but the last man (1 Corinthians 15:42), distinguishing Him from the nature of Adam. As God, He is the creator; as man, He is not created but the Word made flesh (John 1:4), God manifested in flesh (1 Timothy 3:16). He died as a man and raised Himself as God (John 2:19). He is referred to as both man and the Son of God only when He was manifested in the flesh (Luke 1:35). Subsequently, He continued to reveal His divinity through His body, in whom dwells all the fullness of the Godhead bodily (Colossians 2:9). This is why, when Philip sought to see the Father, Jesus directed him to Himself (John 14:9). He remains God and man, Father and Son, even now in heaven (Isaiah 9:6).`,
   },
   {
     title: "What do you know about the body of Christ?",
@@ -95,28 +93,6 @@ export const accordionData = [
   },
   {
     title: "When does the new testement church stabilished?",
-    content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-      reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-      quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-      pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-      quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-      Repudiandae, mollitia id reprehenderit a ab odit!`,
-  },
-  {
-    title: "Section 3",
-    content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-      quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-      dolor ut sequi minus iste? Quas?`,
-  },
-  {
-    title: "Section 1",
-    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-      laborum cupiditate possimus labore, hic temporibus velit dicta earum
-      suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-      voluptatem.`,
-  },
-  {
-    title: "Section 2",
     content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
       reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
       quaerat iure quos dolorum accusantium ducimus in illum vero commodi

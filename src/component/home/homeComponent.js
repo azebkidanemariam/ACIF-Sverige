@@ -113,7 +113,7 @@ const EventSection = () => (
         title={"Passover"}
         details={
           <EventDetail
-            title="Passover Confrence"
+            title="Oslo Lord's Super"
             location="Oslo, Norway"
             date="March 29th - March 31st, 2024"
             time="To be announced..."
@@ -138,7 +138,7 @@ const EventSection = () => (
               rel="noopener noreferrer"
               className="link-button  "
             >
-              Book Hotel
+              <h4 className="fs-4">Book Hotel</h4>
             </a>
           </>
         }

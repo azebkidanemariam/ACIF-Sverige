@@ -14,11 +14,11 @@ function BooksComponent() {
                 href="/books/AmharicSongs.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" link-button shadow-lg fs-6 "
+                className=" link-button shadow-lg"
                 style={{
-                  backgroundColor: "#fff",
+                  backgroundColor: "#D1DBF5",
                   color: "#146356",
-                  fontWeight: "bolder",
+                  fontWeight: "900",
                 }}
               >
                 All Amharic Songs
@@ -32,12 +32,11 @@ function BooksComponent() {
                 href="/books/ExplanationtoMattew28_19.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" link-button shadow-lg fs-6"
+                className=" link-button shadow-lg"
                 style={{
-                  backgroundColor: "#fff",
+                  backgroundColor: "#D1DBF5",
                   color: "#146356",
-
-                  fontWeight: "600",
+                  fontWeight: "900",
                 }}
               >
                 Matthew 28:19 Explained- Part Two
