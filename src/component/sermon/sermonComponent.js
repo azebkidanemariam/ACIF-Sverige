@@ -47,7 +47,9 @@ const SermonComponent = () => {
             style={{ height: "400px" }}
           />
           <div className="card-body">
-            <h4 className="card-title">{title}</h4>
+            <h4 className="card-title" style={{ color: "#966c3b" }}>
+              {title}
+            </h4>
             <p className="card-text">{visibleContent}</p>
             {words.length > wordsToShow && (
               <button

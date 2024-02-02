@@ -67,7 +67,7 @@ const WelcomeSection = () => (
             Christ together. May God's love and blessings be with you always! In
             Christ's love,
           </p>
-          <h4 className="card-title pb-2 pt-2">
+          <h4 className="card-title pb-2 pt-2" style={{ color: "#966c3b" }}>
             Apostolic Church international Fellowship
           </h4>
         </div>
@@ -86,15 +86,17 @@ const EventCard = ({ imgSrc, title, details }) => (
       />
 
       <div className="card-body d-flex flex-fill flex-column">
-        <h4 className="card-title">{title}</h4>
-        <div className="card-text pt-3 mb-4">{details}</div>
+        <h4 className="card-title" style={{ color: "#966c3b" }}>
+          {title}
+        </h4>
+        <div className="card-text pt-3 mb-4 text-secondary">{details}</div>
       </div>
     </div>
   </div>
 );
 
 const EventSection = () => (
-  <div className=" row d-flex justify-content-center mt-4 card-body text-start text-secondary ">
+  <div className=" row d-flex justify-content-center mt-4 card-body text-start">
     <div className="row gap-2 p-0">
       <EventCard
         imgSrc={churchBg}
@@ -138,7 +140,9 @@ const EventSection = () => (
               rel="noopener noreferrer"
               className="link-button  "
             >
-              <h4 className="fs-4">Book Hotel</h4>
+              <h4 className="fs-4" style={{ color: "#966c3b" }}>
+                Book Hotel
+              </h4>
             </a>
           </>
         }
@@ -208,7 +212,10 @@ function HomeComponent() {
           <h1 className="fs-2 fs-sm-3 fs-md-4 fs-lg-5 fs-xl-5 mb-2">
             Apostolic Church International Fellowship
           </h1>
-          <h3 className="fs-4 fs-sm-5 fs-md-5 fs-lg-5 fs-xl-5 mb-2">
+          <h3
+            className="fs-4 fs-sm-5 fs-md-5 fs-lg-5 fs-xl-5 mb-2"
+            style={{ color: "#966c3b" }}
+          >
             “Hear, O Israel: The LORD our God is one LORD"
           </h3>
           <p className="mb-0">Deuteronomy 6:4</p>
