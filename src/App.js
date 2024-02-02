@@ -5,8 +5,8 @@ import HomePage from "./pages/home";
 import QuestionAnswerPage from "./pages/question-answer";
 import BookPage from "./pages/books";
 import SermonsPage from "./pages/sermons";
-import WeBelieveInPage from "./pages/contact";
-import ContactPage from "./pages/sunday-school";
+import WeBelieveInPage from "./pages/believe";
+import ContactPage from "./pages/contact";
 
 const App = () => {
   useEffect(() => {

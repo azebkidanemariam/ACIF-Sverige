@@ -1,14 +1,13 @@
-import React from "react";
-import ContactComponent from "../component/contact/contactComponent";
-import Navigate from "../navigation/navigation";
 import FooterComponent from "../component/footer/footer";
-function WeBelieveInPage() {
+import ContactForm from "../component/contact/contactUs";
+import Navigate from "../navigation/navigation";
+function ContactPage() {
   return (
     <div>
       <Navigate />
-      <ContactComponent />
+      <ContactForm />
       <FooterComponent />
     </div>
   );
 }
-export default WeBelieveInPage;
+export default ContactPage;

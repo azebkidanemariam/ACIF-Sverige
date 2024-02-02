@@ -1,6 +1,6 @@
 export const accordionData = [
   {
-    title: "Who is Jesus? Is Jesus God or Son?",
+    title: "Who is Jesus? Is Jesus God or Son of God?",
     content: `Jesus inquired of His disciples about the public's perception of His identity. Some believed He was Elijah, others thought He was Jeremiah, and some even suggested He was John the Baptist. Following this, Jesus asked His disciples directly who they believed He was. Peter, through divine revelation, proclaimed that Jesus is the Christ, the Son of God.
 
     Matthew 16:16 (KJV) And Simon Peter answered and said, Thou art the Christ, the Son of the living God.
@@ -99,11 +99,5 @@ export const accordionData = [
       pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
       quidem maiores doloremque est numquam praesentium eos voluptatem amet!
       Repudiandae, mollitia id reprehenderit a ab odit!`,
-  },
-  {
-    title: "Section 3",
-    content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-      quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-      dolor ut sequi minus iste? Quas?`,
   },
 ];

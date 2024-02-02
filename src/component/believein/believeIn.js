@@ -1,5 +1,5 @@
 import React from "react";
-import "./contact-module.css";
+import "./believeIn-module.css";
 
 import imageBg from "../../asset/bibleBg.jpg";
 import wineBg from "../../asset/wine.jpg";
@@ -34,7 +34,7 @@ function Section({
   );
 }
 
-function ContactComponent() {
+function WeBelieveIn() {
   return (
     <div className="container-fluid p-0">
       <img
@@ -160,4 +160,4 @@ function ContactComponent() {
   );
 }
 
-export default ContactComponent;
+export default WeBelieveIn;
