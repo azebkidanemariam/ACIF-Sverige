@@ -38,7 +38,8 @@ h1 {
   font-family: "NT Fabulous";
   font-weight: bolder;
 }
-h3 {
+
+h2 {
   color: #966c3b;
   font-family: fantasy;
 }
@@ -59,16 +60,18 @@ h4 {
 
 .link-button {
   font-size: 1.2rem;
-  font-weight: 900;
+  font-weight: 400;
+  padding: 15px;
   color: #d1dbf5;
   background-color: #146356;
+
   text-decoration: none;
-  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 0;
   font-family: "NT Fabulous";
+  border-radius: 1px;
 }
 
 @keyframes App-logo-spin {

@@ -19,7 +19,7 @@ const SermonComponent = () => {
   const [showMoreSermon3, setShowMoreSermon3] = useState(false);
   const [showMoreSermon4, setShowMoreSermon4] = useState(false);
 
-  const wordsToShowSermon1 = 65;
+  const wordsToShowSermon1 = 75;
   const wordsToShowSermon2 = 81;
   const wordsToShowSermon3 = 70;
   const wordsToShowSermon4 = 70;

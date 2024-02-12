@@ -12,7 +12,7 @@ import DailyVerses from "../dailyverse";
 const EventDetail = ({ title, location, date, time }) => {
   return (
     <div>
-      <p>
+      <p style={{ color: "#146356" }}>
         <strong>{title}</strong>
       </p>
       <p>
@@ -43,29 +43,28 @@ const WelcomeSection = () => (
         />
       </div>
       <div className="col p-4">
-        <h4 className="card-title pb-2 pt-2" style={{ color: "#146356" }}>
+        <h3 className="card-title pb-2 pt-2" style={{ color: "#146356" }}>
           Welcome to ACIF, Sweden!
-        </h4>
+        </h3>
         <div className="d-flex flex-column h-50">
           <p className="flex-grow-1 card-text text-muted">
             Greetings in the name of our Lord and Savior, Jesus Christ! We are
             delighted to have you visit our church's online home. Whether you
             are a longtime member or a first-time visitor, we extend a heartfelt
-            welcome to you. At ACIF, we believe in the power of faith, love, and
-            community. Our church is not just a building; it's a family. As you
-            navigate through our website, we hope you sense the warmth and love
-            that defines our congregation. Whether you are seeking a place of
-            worship, spiritual growth, or a community to connect with, we are
-            here for you. Join us for our uplifting worship services, engaging
-            events, and meaningful fellowship opportunities. Explore the various
-            ministries that cater to all age groups and interests, and discover
-            the ways you can get involved. Feel free to reach out if you have
-            any questions or if there's anything we can assist you with. We are
-            here to serve and support one another on our faith journeys. Thank
-            you for taking the time to explore our website. We look forward to
-            the possibility of meeting you in person and sharing the joy of
-            Christ together. May God's love and blessings be with you always! In
-            Christ's love,
+            welcome to you. At ACIFS, we believe in the sovereignty of God. You
+            are not here by accident. It is the Lord who has determined the
+            dwelling times and boundaries for all of us. Acts 17:26 (KJV) And
+            hath made of one blood all nations of men for to dwell on all the
+            face of the earth, and hath determined the times before appointed,
+            and the bounds of their habitation; While browsing through our
+            website, we pray that you find fulfillment as you look unto the Lord
+            Jesus Christ, whom we preach and make known. When you are led to do
+            so, it will be our privilege to welcome you into our physical
+            fellowship. Feel free to reach out if you have any questions or if
+            there's anything we can assist you with. Thank you for taking the
+            time to explore our website. We look forward to the possibility of
+            meeting you in person and sharing the joy of Christ together. May
+            God's love and blessings be with you always! In Christ's love,
           </p>
           <h4 className="card-title pb-2 pt-2" style={{ color: "#966c3b" }}>
             Apostolic Church international Fellowship
@@ -78,10 +77,10 @@ const WelcomeSection = () => (
 
 const EventCard = ({ imgSrc, title, details }) => (
   <div className="col-12 col-md mb-4 card-container">
-    <div className="card card-border d-flex flex-column border-0 shadow-lg align-items-stretch">
+    <div className="card card-border d-flex flex-column border-0 shadow-lg align-items-stretch opacity-100">
       <img
         src={imgSrc}
-        className="card-img-top card-border img-one"
+        className="card-img-top card-border img-one "
         alt="..."
       />
 
@@ -112,10 +111,10 @@ const EventSection = () => (
       />
       <EventCard
         imgSrc={PassoverBg}
-        title={"Passover"}
+        title={"Passover Conference"}
         details={
           <EventDetail
-            title="Oslo Lord's Super"
+            title="Lord's Super"
             location="Oslo, Norway"
             date="March 29th - March 31st, 2024"
             time="To be announced..."
@@ -125,7 +124,7 @@ const EventSection = () => (
 
       <EventCard
         imgSrc={londonBg}
-        title={"Confrences"}
+        title={"Annual Conference"}
         details={
           <>
             <EventDetail
@@ -139,8 +138,9 @@ const EventSection = () => (
               target="_blank"
               rel="noopener noreferrer"
               className="link-button  "
+              style={{ backgroundColor: "#1C484A" }}
             >
-              <h4 className="fs-4" style={{ color: "#966c3b" }}>
+              <h4 className="fs-4" style={{ color: "#FFD282" }}>
                 Book Hotel
               </h4>
             </a>
@@ -185,6 +185,7 @@ const Card = ({ title, content, extraClasses = [] }) => (
     </div>
   </div>
 );
+
 function HomeComponent() {
   return (
     <div className="container-fluid m-0 p-0">
@@ -205,19 +206,26 @@ function HomeComponent() {
             alt="A background video of a waterfall"
             className="w-100"
             style={{ height: "600px" }}
-          />
+          >
+            <track
+              kind="captions"
+              src={waterfallvideoBg}
+              srclang="en"
+              label="English"
+            />
+          </video>
         </figure>
 
         <figcaption className="glassy-text position-absolute  top-50 translate-middle-y px-3 py-2">
           <h1 className="fs-2 fs-sm-3 fs-md-4 fs-lg-5 fs-xl-5 mb-2">
             Apostolic Church International Fellowship
           </h1>
-          <h3
+          <h2
             className="fs-4 fs-sm-5 fs-md-5 fs-lg-5 fs-xl-5 mb-2"
             style={{ color: "#966c3b" }}
           >
             “Hear, O Israel: The LORD our God is one LORD"
-          </h3>
+          </h2>
           <p className="mb-0">Deuteronomy 6:4</p>
         </figcaption>
       </div>

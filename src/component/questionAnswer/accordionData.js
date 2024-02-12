@@ -60,7 +60,7 @@ export const accordionData = [
   },
   {
     title: "Is Jesus God or Man?",
-    content: `Jesus is both God and man. However, He is not the first man but the last man (1 Corinthians 15:42), distinguishing Him from the nature of Adam. As God, He is the creator; as man, He is not created but the Word made flesh (John 1:4), God manifested in flesh (1 Timothy 3:16). He died as a man and raised Himself as God (John 2:19). He is referred to as both man and the Son of God only when He was manifested in the flesh (Luke 1:35). Subsequently, He continued to reveal His divinity through His body, in whom dwells all the fullness of the Godhead bodily (Colossians 2:9). This is why, when Philip sought to see the Father, Jesus directed him to Himself (John 14:9). He remains God and man, Father and Son, even now in heaven (Isaiah 9:6).`,
+    content: `Jesus is both God and man. However, He is not the first man but the last man (1 Corinthians 15:42), distinguishing Him from the nature of Adam. As God, He is the creator; as man, He is not created but the Word made flesh (John 1:4), God manifested in flesh (1 Timothy 3:16). He died as a man and raised Himself as God (John 2:19). He is referred to as both man and the Son of God only when He was manifested in the flesh (Luke 1:35). Subsequently, He continued to reveal His divinity through His body, in whom dwells all the fullness of the Godhead bodily (Colossians 2:9). This is why, when Philip sought to see the Father, Jesus directed him to Himself (John 14:9). He remains God and man, Father and Son, even now in heaven (Isaiah 9:6; Revelation 22:3).`,
   },
   {
     title: "What do you know about the body of Christ?",
@@ -93,11 +93,36 @@ export const accordionData = [
   },
   {
     title: "When does the new testement church stabilished?",
-    content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-      reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-      quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-      pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-      quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-      Repudiandae, mollitia id reprehenderit a ab odit!`,
+    content: `The New Testament church is established on the day of Pentecost fifty days after the resurrection of Jesus.
+
+    The Lord had told the apostles, especially Peter, that He would build the church.
+    
+    Matthew 16:18 (KJV) And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.
+    
+    In connection with this, the Lord promised to give Peter the keys of the kingdom of heaven.
+    
+    Matthew 16:19 (KJV) And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.
+    
+    This is not just a promise to one individual, Peter, but also to all those who adhere to the teachings of the Lord.
+    
+    Luke 10:16 (KJV) He that heareth you heareth me; and he that despiseth you despiseth me; and he that despiseth me despiseth him that sent me.
+    
+    The Lord reaffirmed this fact after His resurrection.
+    
+    John 20:23 (KJV) Whose soever sins ye remit, they are remitted unto them; [and] whose soever [sins] ye retain, they are retained.
+    
+    Following that, the Lord commanded them to wait in Jerusalem until they were filled with the power of the Holy Spirit.
+    
+    Acts 1:8 (KJV) But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth.
+    
+    When the Holy Spirit was poured out, Peter stood among the apostles and preached the gospel to people who had gathered in Jerusalem from all over the world to celebrate Pentecost. During his preaching, they were pricked at heart and asked him what they must do. This led him to preach to them about repentance and remission of sins, as was prophesied to start in Jerusalem.
+    
+    Luke 24:47 (KJV) And that repentance and remission of sins should be preached in his name among all nations, beginning at Jerusalem.
+    
+    Acts 2:37-38 (KJV) 37 Now when they heard [this], they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men [and] brethren, what shall we do? 38 Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.
+    
+    This is how Peter makes use of the keys that he received from the Lord, through which the Lord is building His church. We see it being fulfilled first on the day of Pentecost in Jerusalem.
+    
+    This is how, where and when the New Testament church was established.`,
   },
 ];

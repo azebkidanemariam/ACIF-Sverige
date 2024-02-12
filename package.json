@@ -47,6 +47,8 @@
     ]
   },
   "devDependencies": {
+    "babel": "@babel/plugin-proposal-private-property-in-object",
+    "image-webpack-loader": "^8.1.0",
     "sass": "^1.55.0"
   }
 }

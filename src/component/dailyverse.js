@@ -46,9 +46,12 @@ const DailyVerses = () => {
           >
             Daily Verses
           </h4>
-          <h6 className="card-text lead text-center text-secondary ">
+          <performance
+            className="card-text lead text-center "
+            style={{ color: "#146356" }}
+          >
             {verses[currentDay - 1]}
-          </h6>
+          </performance>
         </div>
       </div>
     </div>
