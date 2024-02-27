@@ -21,6 +21,7 @@ body {
   position: relative;
   max-width: 100%;
   min-height: 100vh;
+  background-color: #fdfaf4;
 }
 *,
 *:before,
@@ -72,6 +73,12 @@ h4 {
   border: 0;
   font-family: "NT Fabulous";
   border-radius: 1px;
+}
+.height-vh {
+  height: 100vh;
+}
+.sand {
+  background-color: #f9f8f4;
 }
 
 @keyframes App-logo-spin {

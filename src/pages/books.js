@@ -5,7 +5,7 @@ import FooterComponent from "../component/footer/footer";
 import BooksComponent from "../component/books/booksComponent";
 function BookPage() {
   return (
-    <div>
+    <div className="height-vh">
       <Navigate />
       <BooksComponent />
       <FooterComponent />

@@ -1,12 +1,11 @@
 import React from "react";
 import "./believeIn-module.css";
 
-import imageBg from "../../asset/bibleBg.jpg";
 import wineBg from "../../asset/wine.jpg";
 import oceanBg from "../../asset/repent.jpg";
-import stoneBg from "../../asset/stone.jpg";
+import stoneBg from "../../asset/stone.webp";
 import lakeBg from "../../asset/ocean.jpg";
-import manprayBg from "../../asset/manpray.jpg";
+import manprayBg from "../../asset/manpray.webp";
 
 function Section({
   image,
@@ -37,11 +36,6 @@ function Section({
 function WeBelieveIn() {
   return (
     <div className="container-fluid p-0">
-      <img
-        src={imageBg}
-        className="img-class "
-        alt="A background video of sky view"
-      />
       <div className="container">
         <Section
           image={stoneBg}

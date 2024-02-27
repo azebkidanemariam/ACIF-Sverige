@@ -4,8 +4,8 @@ import Bible from "../../asset/bibleBg.jpg";
 
 function BooksComponent() {
   return (
-    <div className="container h-100">
-      <div className="d-flex justify-content-center mt-4 card-body">
+    <div className="container mt-4 w-100 vh-100  ">
+      <div className="d-flex justify-content-center align-items-center mt-4 card-body">
         <div className="row ">
           <div className="col-12 col-md-6 mt-2">
             <div className="card card-border border-0">

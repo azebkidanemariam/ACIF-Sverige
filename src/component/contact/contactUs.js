@@ -46,65 +46,67 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container mt-4 w-100 h-100">
-      <h1>Get in Touch!</h1>
+    <div className="container mt-4 w-100 vh-100">
+      <div className="shadow-lg p-4 sand ">
+        <h1>Get in Touch!</h1>
 
-      <form onSubmit={handleSubmit} className="h-100">
-        <div className="mb-3">
-          <label htmlFor="name" className="form-label">
-            Your name
-          </label>
-          <input
-            type="text"
-            className="form-control"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="mb-3">
-          <label htmlFor="email" className="form-label">
-            Your Email
-          </label>
-          <input
-            type="email"
-            className="form-control"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="mb-3">
-          <label htmlFor="message" className="form-label">
-            Message
-          </label>
-          <textarea
-            className="form-control"
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            rows="4"
-            required
-          ></textarea>
-        </div>
+        <form onSubmit={handleSubmit} className="h-100">
+          <div className="mb-3">
+            <label htmlFor="name" className="form-label">
+              Your name
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="email" className="form-label">
+              Your Email
+            </label>
+            <input
+              type="email"
+              className="form-control"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="message" className="form-label">
+              Message
+            </label>
+            <textarea
+              className="form-control"
+              id="message"
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              rows="4"
+              required
+            ></textarea>
+          </div>
 
-        <button type="submit" className="link-button border-0">
-          Send Message
-        </button>
-      </form>
-      <div className="d-flex w-100 mt-4">
-        {formStatus.submitted && formStatus.success && (
-          <p className="glassy-text shadow-lg">Message sent successfully!</p>
-        )}
-        {formStatus.submitted && formStatus.error && (
-          <p className="glassy-text shadow-lg">
-            Error sending message. Please try again later.
-          </p>
-        )}
+          <button type="submit" className="link-button border-0">
+            Send Message
+          </button>
+        </form>
+        <div className="d-flex w-100 mt-4">
+          {formStatus.submitted && formStatus.success && (
+            <p className="glassy-text shadow-lg">Message sent successfully!</p>
+          )}
+          {formStatus.submitted && formStatus.error && (
+            <p className="glassy-text shadow-lg">
+              Error sending message. Please try again later.
+            </p>
+          )}
+        </div>
       </div>
     </div>
   );

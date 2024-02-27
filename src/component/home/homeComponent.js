@@ -1,11 +1,12 @@
 import React from "react";
 import "./home.css";
-import waterfallvideoBg from "../../asset/waterfallBg.mp4";
-import churchBg from "../../asset/cross.jpg";
+import waterfallvideoBg from "../../asset/Waterfall.webm";
+import waterfallvideoBg1 from "../../asset/waterfallBg.mp4";
+import churchBg from "../../asset/cross.webp";
 import PassoverBg from "../../asset/passover.jpg";
 import londonBg from "../../asset/londonn.jpg";
-import holyspiritBg from "../../asset/manpray.jpg";
-import welcomeBg from "../../asset/welcome.jpg";
+import holyspiritBg from "../../asset/manpray.webp";
+import welcomeBg from "../../asset/welcome.webp";
 import "bootstrap/dist/css/bootstrap.css";
 import DailyVerses from "../dailyverse";
 
@@ -199,7 +200,7 @@ function HomeComponent() {
           }}
         >
           <video
-            src={waterfallvideoBg}
+            src={waterfallvideoBg1}
             autoPlay
             loop
             muted
@@ -209,7 +210,7 @@ function HomeComponent() {
           >
             <track
               kind="captions"
-              src={waterfallvideoBg}
+              src={waterfallvideoBg1}
               srclang="en"
               label="English"
             />
