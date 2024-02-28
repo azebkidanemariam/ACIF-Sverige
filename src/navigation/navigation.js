@@ -33,7 +33,7 @@ function Navigate() {
       >
         <img src={logo} alt="a logo" className="logo" />
         <div className="px-4">
-          <h4 style={{ color: "#fff" }}>ACIF - Sweden</h4>
+          <h4 style={{ color: "#146356" }}>ACIF - Sweden</h4>
         </div>
       </Link>
       <button

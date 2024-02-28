@@ -7,17 +7,20 @@ footer {
   color: #000;
   text-align: center;
   justify-content: center;
-  background-color: #146356;
+  background-color: #fff;
+  /* background-color: #146356; */
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.7;
 }
 
 li {
   list-style: none;
+  color: #966c3b;
 }
 .social-media {
-  background-color: #d1dbf5;
+  /* background-color: #d1dbf5; */
+  color: #966c3b;
   padding: 1rem;
-  color: #146356;
+  background-color: #146356;
   text-align: center;
 }

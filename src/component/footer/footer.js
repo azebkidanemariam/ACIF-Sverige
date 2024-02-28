@@ -9,7 +9,7 @@ function FooterComponent() {
       <div className="shadow-lg mt-4 rounded p-4 ">
         <div className="row d-flex justify-content-between ">
           <div className="col-sm-3 col-2xl-2 col-12 ">
-            <h4 style={{ color: " #f4dda4" }}>Contact Us</h4>
+            <h4 style={{ color: "  #146356" }}>Contact Us</h4>
             <ul style={{ padding: "0px" }}>
               <li>
                 <strong>Email Address - </strong> apostolic_swe@yahoo.com
@@ -27,7 +27,7 @@ function FooterComponent() {
             </ul>
           </div>
           <div className="col-sm-3 col-12">
-            <h4 style={{ color: " #f4dda4" }}>Services</h4>
+            <h4 style={{ color: "  #146356" }}>Services</h4>
             <ul style={{ padding: "0px" }}>
               <li>Sunday Services - 13-00 - 16.00</li>
               <li>Bible Studying - Tuesday and Friday</li>
