@@ -1,7 +1,7 @@
 {
   "name": "my-church",
   "version": "0.1.0",
-  "homepage": "https://azebkidanemariam.github.io/ACIF-Sverige",
+  "homepage": "https://azebkidanemariam.github.io/",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.19.3",
