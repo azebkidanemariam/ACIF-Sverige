@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Toast, Form, Button } from "react-bootstrap";
+import { BsFillEnvelopeFill, BsPersonFill } from "react-icons/bs";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -46,66 +48,82 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container mt-4 w-100 vh-100">
-      <div className="shadow-lg p-4 sand ">
-        <h1>Get in Touch!</h1>
+    <div className="container mt-5">
+      <div className="contact-form shadow-lg p-5 bg-light rounded">
+        <h1 className="text-center mb-4" style={{ color: "#146356" }}>
+          Get in Touch!
+        </h1>
 
-        <form onSubmit={handleSubmit} className="h-100">
-          <div className="mb-3">
-            <label htmlFor="name" className="form-label">
-              Your name
-            </label>
-            <input
+        <Form onSubmit={handleSubmit}>
+          <Form.Group className="mb-3">
+            <Form.Label>
+              <BsPersonFill className="icon" style={{ color: "#146356" }} />{" "}
+              Your Name
+            </Form.Label>
+            <Form.Control
               type="text"
-              className="form-control"
-              id="name"
               name="name"
               value={formData.name}
               onChange={handleChange}
+              required
             />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="email" className="form-label">
+          </Form.Group>
+
+          <Form.Group className="mb-3">
+            <Form.Label>
+              <BsFillEnvelopeFill
+                className="icon"
+                style={{ color: "#146356" }}
+              />{" "}
               Your Email
-            </label>
-            <input
+            </Form.Label>
+            <Form.Control
               type="email"
-              className="form-control"
-              id="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
               required
             />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="message" className="form-label">
-              Message
-            </label>
-            <textarea
-              className="form-control"
-              id="message"
+          </Form.Group>
+
+          <Form.Group className="mb-3">
+            <Form.Label>Message</Form.Label>
+            <Form.Control
+              as="textarea"
+              rows={4}
               name="message"
               value={formData.message}
               onChange={handleChange}
-              rows="4"
               required
-            ></textarea>
-          </div>
+            />
+          </Form.Group>
 
-          <button type="submit" className="link-button border-0">
+          <Button
+            variant="link-button w-100 mt-4"
+            type="submit"
+            style={{ backgroundColor: "#146356", color: "#fff" }}
+          >
             Send Message
-          </button>
-        </form>
-        <div className="d-flex w-100 mt-4">
-          {formStatus.submitted && formStatus.success && (
-            <p className="glassy-text shadow-lg">Message sent successfully!</p>
-          )}
-          {formStatus.submitted && formStatus.error && (
-            <p className="glassy-text shadow-lg">
+          </Button>
+        </Form>
+
+        <div className="mt-4 text-center">
+          <Toast
+            show={formStatus.submitted && formStatus.success}
+            onClose={() => setFormStatus({ ...formStatus, success: false })}
+            className="glassy-toast success"
+          >
+            <Toast.Body>Message sent successfully!</Toast.Body>
+          </Toast>
+          <Toast
+            show={formStatus.submitted && formStatus.error}
+            onClose={() => setFormStatus({ ...formStatus, error: false })}
+            className="glassy-toast error"
+          >
+            <Toast.Body>
               Error sending message. Please try again later.
-            </p>
-          )}
+            </Toast.Body>
+          </Toast>
         </div>
       </div>
     </div>
