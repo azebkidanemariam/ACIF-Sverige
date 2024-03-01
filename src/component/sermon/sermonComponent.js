@@ -19,11 +19,10 @@ const SermonComponent = () => {
   const [showMoreSermon3, setShowMoreSermon3] = useState(false);
   const [showMoreSermon4, setShowMoreSermon4] = useState(false);
 
-  const wordsToShowSermon1 = 75;
-  const wordsToShowSermon2 = 81;
-  const wordsToShowSermon3 = 70;
-  const wordsToShowSermon4 = 70;
-
+  const wordsToShowSermon1 = 50;
+  const wordsToShowSermon2 = 50;
+  const wordsToShowSermon3 = 50;
+  const wordsToShowSermon4 = 50;
   const renderSermon = (
     title,
     sermonContent,
@@ -38,7 +37,7 @@ const SermonComponent = () => {
       : words.slice(0, wordsToShow).join(" ");
 
     return (
-      <div className="col-12 col-md-4 mb-4 container">
+      <div className="col-12 col-md-6 mb-4 container">
         <div className="card shadow-lg">
           <img
             src={sermonImage}
@@ -46,7 +45,10 @@ const SermonComponent = () => {
             alt="Sermon"
             style={{ height: "400px" }}
           />
-          <div className="card-body">
+          <div
+            className="card-body"
+            style={{ maxHeight: "300px", overflowY: "auto" }}
+          >
             <h4 className="card-title" style={{ color: "#966c3b" }}>
               {title}
             </h4>
@@ -91,22 +93,6 @@ const SermonComponent = () => {
           setShowMoreSermon3,
           sermonImage3,
           wordsToShowSermon3
-        )}
-        {renderSermon(
-          "Proper Worship",
-          sermon4Content,
-          showMoreSermon4,
-          setShowMoreSermon4,
-          sermonImage4,
-          wordsToShowSermon4
-        )}
-        {renderSermon(
-          "Proper Worship",
-          sermon4Content,
-          showMoreSermon4,
-          setShowMoreSermon4,
-          sermonImage4,
-          wordsToShowSermon4
         )}
         {renderSermon(
           "Proper Worship",
