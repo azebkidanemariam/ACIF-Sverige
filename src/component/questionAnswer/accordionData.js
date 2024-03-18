@@ -38,9 +38,20 @@ export const accordionData = [
   },
   {
     title: "What is baptism?",
-    content:
-      "Baptism is a religious ritual symbolizing purification, initiation, or admission into the Christian faith through the application of water, representing spiritual cleansing and rebirth.",
-    verse: `Matthew 28:19-20 (New International Version) - "Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age."\n\nActs 2:38 (New International Version) - "Peter replied, 'Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins. And you will receive the gift of the Holy Spirit.'"`,
+    content: `
+    Baptism is a word derived from the Greek 'baptizo,' which means to dip, immerse, or submerge. In the Old Testament, we observe an example of baptism in the person of Naaman, who was told to dip himself in the Jordan River.
+    
+   
+    
+    `,
+
+    verse: `   2 Kings 5:14 (KJV) Then he went down and dipped himself seven times in the Jordan, according to the saying of the man of God, and his flesh came again like that of a little child, and he was clean.
+    
+    In the New Testament, baptism is a way of being buried with Christ as we are immersed in the water.
+    
+    Romans 6:4 (KJV) Therefore, we are buried with Him by baptism into death, so that as Christ was raised up from the dead by the glory of the Father, even so, we should walk in newness of life.
+    
+    One way the Greeks use the word is to signify the dyeing of a garment. This beautifully illustrates how, through baptism, we take on the righteousness of Jesus.Galatians 3:27 (KJV) For as many of you as have been baptized into Christ have put on Christ.`,
   },
 
   {
