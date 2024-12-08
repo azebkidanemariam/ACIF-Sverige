@@ -10,7 +10,7 @@ function BooksComponent() {
       <div className=" container mt-4">
         <Carousel>
           <Carousel.Item>
-            <img className="card-img" src={Songs} alt="First slide" />
+            <img className="bookcard-img" src={Songs} alt="First slide" />
             <Carousel.Caption>
               <a
                 href="/books/AmharicSongs.pdf"
@@ -28,8 +28,8 @@ function BooksComponent() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="card-img" src={Bible} alt="Second slide" />
-            <Carousel.Caption>
+            <img className="bookcard-img" src={Bible} alt="Second slide" />
+            <Carousel.Caption className="carousel-caption p">
               <a
                 href="/books/ExplanationtoMattew28_19.pdf"
                 target="_blank"
@@ -39,7 +39,7 @@ function BooksComponent() {
               >
                 <h3>Click to Open Matthew 28:19 Explained</h3>
               </a>
-              <p>
+              <p className="carousel-caption p">
                 Discover the deeper meaning behind Matthew 28:19 with our
                 detailed explanation.
               </p>

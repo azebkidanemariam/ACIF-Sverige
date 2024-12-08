@@ -1,14 +1,17 @@
 import React from "react";
+import DailyVerses from "../dailyverse";
+
 import "./home.css";
-import waterfallvideoBg from "../../asset/Waterfall.webm";
+import "bootstrap/dist/css/bootstrap.css";
+
 import waterfallvideoBg1 from "../../asset/waterfallBg.mp4";
 import churchBg from "../../asset/cross.webp";
-import PassoverBg from "../../asset/passover.jpg";
-import londonBg from "../../asset/londonn.jpg";
+import romeBg from "../../asset/italy-milano.jpg";
+import swedenmBg from "../../asset/sweden.jpg";
 import holyspiritBg from "../../asset/manpray.webp";
 import welcomeBg from "../../asset/welcome.webp";
-import "bootstrap/dist/css/bootstrap.css";
-import DailyVerses from "../dailyverse";
+/* import PassoverBg from "../../asset/passover.jpg";
+import londonBg from "../../asset/londonn.jpg"; */
 
 const EventDetail = ({ title, location, date, time }) => {
   return (
@@ -99,18 +102,19 @@ const EventSection = () => (
   <div className=" row d-flex justify-content-center mt-4 card-body text-start">
     <div className="row gap-2 p-0">
       <EventCard
-        imgSrc={churchBg}
-        title={"Place Of Worship"}
+        imgSrc={swedenmBg}
+        title={"Stockholm New Year Confrence"}
         details={
           <EventDetail
-            title="Sunday Service"
-            location="Borgenvägen 16, Danderyd"
-            date="Every Sunday"
-            time="13:00 - 17:00"
+            title="New Year Confrence"
+            location="Folkhögskolevägen 1A, Järfalla"
+            date="December 27th - December 29th, 2024"
+            time="10:00 - 20:00"
           />
         }
       />
-      <EventCard
+
+      {/*  <EventCard
         imgSrc={PassoverBg}
         title={"Passover Conference"}
         details={
@@ -121,20 +125,20 @@ const EventSection = () => (
             time="To be announced..."
           />
         }
-      />
+      /> */}
 
       <EventCard
-        imgSrc={londonBg}
+        imgSrc={romeBg}
         title={"Annual Conference"}
         details={
           <>
             <EventDetail
               title="ACIF Annual Conference Europe"
-              location="London, UK"
-              date="August 2nd - August 4th, 2024"
-              time="To be announced..."
+              location="Italy, to be announced..."
+              date="to be announced..."
+              time="to be announced..."
             />
-            <a
+            {/*  <a
               href="https://www.smartsurvey.co.uk/s/YP0EE1/"
               target="_blank"
               rel="noopener noreferrer"
@@ -144,8 +148,20 @@ const EventSection = () => (
               <h4 className="fs-4" style={{ color: "#FFD282" }}>
                 Book Hotel
               </h4>
-            </a>
+            </a> */}
           </>
+        }
+      />
+      <EventCard
+        imgSrc={churchBg}
+        title={"Place Of Worship"}
+        details={
+          <EventDetail
+            title="Sunday Service"
+            location="Borgenvägen 16, Danderyd"
+            date="Every Sunday"
+            time="13:00 - 17:00"
+          />
         }
       />
 

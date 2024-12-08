@@ -1,0 +1,51 @@
+.bookcard-img {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  margin: auto;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Adjust height based on the image */
+}
+/* Adjust the caption styling for better visibility and positioning */
+.carousel-caption {
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semi-transparent background for better readability */
+  position: absolute; /* Positioning the caption */
+  bottom: 0; /* Align at the bottom of the carousel item */
+  left: 0;
+  right: 0;
+  padding: 20px; /* Add some padding */
+  text-align: center; /* Center the text */
+}
+
+/* Style adjustments for the heading inside the caption for better readability */
+.carousel-caption h3 {
+  font-size: 24px; /* Adjust based on your preference */
+  color: #fff; /* Text color */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Style adjustments for the paragraph text inside the caption */
+.carousel-caption p {
+  font-size: 16px; /* Adjust based on your preference */
+  color: #fff; /* Text color */
+}
+
+/* Responsive font sizes for smaller screens */
+@media (max-width: 768px) {
+  .carousel-caption h3 {
+    font-size: 20px; /* Smaller font size on smaller screens */
+  }
+  .carousel-caption p {
+    font-size: 14px; /* Smaller font size on smaller screens */
+  }
+}
